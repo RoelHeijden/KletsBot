@@ -1,0 +1,115 @@
+Input,Tag,Topic
+there is not a single one I dislike,all,any
+I watch everything,all,any
+there are many sports I enjoy,all,any
+every sport really,all,any
+"I'm a big fan of all, it's hard to pick a favorite.",all,any
+"I enjoy trying out new ones and experiencing different aspects of each one.",all,any
+"I can't choose just one favorite - I love them all!",all,any
+there is no song I dislike,all,any
+I can listen to everything,all,any
+there is so much music I enjoy,all,any
+I like it all,all,any
+I play football,football,sports
+football is my favourite sport,football,sports
+football,football,sports
+Football is definitely my favorite sport.,football,sports
+I love football above all other sports.,football,sports
+There's no competition - football is the best.,football,sports
+"I'm a huge football fan, it's my favorite sport.",football,sports
+"For me, it's football all the way.",football,sports
+"Tennis is definitely my favorite sport.",tennis,sports
+"I love the strategy and athleticism of tennis.",tennis,sports
+"There's nothing like the feeling of hitting a perfect shot on the court.",tennis,sports
+"I could watch professional tennis all day.",tennis,sports
+"I'm a huge fan of the mental and physical challenge of tennis.",tennis,sports
+"I can't get enough of the energy and excitement of a live match.",tennis,sports
+"For me, it's tennis above all other sports.",tennis,sports
+"I've been playing and watching tennis for as long as I can remember - it's my favorite sport.",tennis,sports
+tennis,tennis,sports
+"Rugby is my absolute favorite sport.",rugby,sports
+"I love the physicality and teamwork of rugby.",rugby,sports
+"There's nothing quite like the thrill of a good scrum.",rugby,sports
+"I'm a huge fan of the fast-paced action of rugby.",rugby,sports
+"I can't get enough of the intensity and passion of the sport.",rugby,sports
+rugby,rugby,sports
+"Running is my favorite way to stay active and healthy.",running,sports
+"I love the feeling of hitting my stride on a run.",running,sports
+"There's nothing quite like the rush of a good run.",running,sports
+"I'm a huge fan of the simplicity and accessibility of running.",running,sports
+"For me, there's no better way to clear my head than going for a run.",running,sports
+running,running,sports
+"Swimming is my favorite way to stay active and fit.",swimming,sports
+"I love the feeling of gliding through the water.",swimming,sports
+"There's nothing quite like the rush of a good swim.",swimming,sports
+"I'm a huge fan of the low-impact, full-body workout that swimming provides.",swimming,sports
+"For me, there's no better way to relax and unwind than a swim.",swimming,sports
+swimming,swimming,sports
+"Horse riding is my absolute favorite sport.",horseriding,sports
+"I love the bond and trust that develops between a rider and their horse.",horseriding,sports
+"There's nothing quite like the feeling of galloping across a field on horseback.",horseriding,sports
+"I'm a huge fan of the grace and beauty of horse riding.",horseriding,sports
+"For me, there's no better way to relax and unwind than a ride on my horse.",horseriding,sports
+horseriding,horseriding,sports
+"Fitness is my favorite way to stay active and healthy.",fitness,sports
+"I love the feeling of pushing myself and seeing progress in my workouts.",fitness,sports
+"There's nothing quite like the rush of a good workout.",fitness,sports
+"I'm a huge fan of the variety and challenges that come with fitness.",fitness,sports
+"For me, there's no better way to clear my head and feel good about myself than a good workout.",fitness,sports
+fitness,fitness,sports
+"Basketball is my absolute favorite sport.",basketball,sports
+"I love the fast-paced action and teamwork of basketball.",basketball,sports
+"There's nothing quite like the feeling of sinking a three-pointer.",basketball,sports
+"I'm a huge fan of the physicality and strategy of basketball.",basketball,sports
+"For me, there's no better way to get some exercise and have fun than a game of basketball.",basketball,sports
+basketball,basketball,sports
+"Baseball is my absolute favorite sport.",baseball,sports
+"I love the strategy and athleticism of baseball.",baseball,sports
+"There's nothing quite like the feeling of hitting a home run.",baseball,sports
+"I'm a huge fan of the mental and physical challenges of baseball.",baseball,sports
+"For me, there's no better way to spend a summer day than at a baseball game.",baseball,sports
+baseball,baseball,sports
+"I love rock music! My favorite bands are AC/DC, Metallica, and Guns N' Roses.",rock,music
+"I'm a huge fan of classic rock and bands like Led Zeppelin, The Who, and Pink Floyd.",rock,music
+"I enjoy all kinds of rock music, from heavy metal to alternative to classic rock.",rock,music
+"Rock music just speaks to me on a deep level. There's something about the energy and emotion of it that I can't get enough of.",rock,music
+"I love discovering new rock bands and exploring different sub-genres within the rock world.",rock,music
+"Some of my favorite rock albums are Appetite for Destruction by Guns N' Roses, Master of Puppets by Metallica, and Dark Side of the Moon by Pink Floyd.",rock,music
+I've been to countless rock concerts and love the energy of a live rock show.,rock,music
+Rock music is just an integral part of who I am and what I love.,rock,music
+I enjoy rock music.,rock,music
+rock,rock,music
+House music is my jam! I love the beats and the energy of it.,house,music
+I've been a fan of house music for as long as I can remember and I never get tired of it.,house,music
+I love going to electronic dance music (EDM) festivals and dancing to house music all night long.,house,music
+"Some of my favorite house DJs and producers are David Guetta, Calvin Harris, and Tiesto.",house,music
+I love the diversity within the house music scene and there are always new artists and styles to discover.,house,music
+"Whether I'm working out, driving, or just relaxing at home, I love having house music on in the background.",house,music
+House music just puts me in a good mood and I love the way it makes me feel.,house,music
+I'm always on the lookout for new house music to add to my playlist.,house,music
+house,house,music
+Pop music is my guilty pleasure! I just can't get enough of those catchy tunes and relatable lyrics.,pop,music
+"Some of my favorite pop artists are Taylor Swift, Bruno Mars, and Ed Sheeran.",pop,music
+I love going to concerts and seeing my favorite pop artists perform live.,pop,music
+Pop music is just so upbeat and fun. It's the perfect pick-me-up when I'm feeling down.,pop,music
+I'm always up for discovering new pop artists and adding their songs to my playlist.,pop,music
+Pop music is just such a huge part of popular culture and I love being a part of it.,pop,music
+"Whether I'm driving, working out, or just hanging out at home, I love having pop music on in the background.",pop,music
+Pop music just makes me happy and I can't get enough of it.,pop,music
+pop,pop,music
+Classical music is just so beautiful and timeless. I can't get enough of it.,classical,music
+"I'm a big fan of classical composers like Bach, Beethoven, and Mozart. Their music is just so timeless and enduring.",classical,music
+"Whether I'm relaxing at home or driving in my car, I love having classical music on in the background.",classical,music
+I love going to classical music concerts and experiencing the beauty and majesty of it live.,classical,music
+Classical music just has this way of calming my mind and helping me relax.,classical,music
+I'm always on the lookout for new classical music to add to my playlist.,classical,music
+classical,classical,music
+Hardstyle/hardcore music is my go-to for getting pumped up and energized. I love the hard-hitting beats and aggressive sound.,hardstyle,music
+"Some of my favorite hardstyle/hardcore artists are Angerfist, Miss K8, and Neophyte.",hardstyle,music
+I love going to hardstyle/hardcore music festivals and experiencing the energy and intensity of the music live.,hardstyle,music
+Hardstyle/hardcore music is just so different from anything else out there. It's like its own world and I'm a big fan.,hardstyle,music
+"Whether I'm working out, driving, or just hanging out with friends, I love having hardstyle/hardcore music on in the background.",hardstyle,music
+I'm always on the lookout for new hardstyle/hardcore artists and tracks to add to my playlist.,hardstyle,music
+Hardstyle/hardcore music just has this way of getting me pumped up and energized. It's like nothing else can.,hardstyle,music
+I love the diversity within the hardstyle/hardcore scene and there are always new artists and styles to discover.,hardstyle,music
+hardstyle,hardstyle,music
