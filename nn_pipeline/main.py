@@ -1,7 +1,8 @@
 
+import torch.nn as nn
+
 from training.training import Training
 from testing.testing import Testing
-import torch.nn as nn
 from training.trainingOptimizer import experiment
 
 

@@ -11,8 +11,10 @@ class Types:
 
 
 class Topics:
+    TOPIC = 'TOPIC'
     SPORTS = 'sport'
     MUSIC = 'music'
+    # extend
 
 
 class Question:
@@ -35,6 +37,7 @@ class Messages:
         # responses
         self.please_reformulate = "I'm not sure what you mean. Could you reformulate your answer?"
         self.main_unknown = "Sorry I still don't understand. We'll skip this question."
+        self.follow_up_unknown = "Sorry I'm not familiar with that " + Topics.TOPIC + ". Let's move on!"
 
         # main questions
         self.main_questions = [
@@ -55,6 +58,7 @@ class Messages:
                     Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO, Topics.MUSIC)
                 }
             ),
+            # extend
         ]
 
     def list_all_questions(self):
@@ -67,9 +71,6 @@ class Messages:
             print(''.join([char*40 for char in '-']))
             question.show()
             print()
-
-    def follow_up_unknown(self, topic):
-        return "I don't know that " + topic + ". Let's move on!"
 
     def send(self, message):
         print("Henk:", '\033[34m' + message + '\033[0m')

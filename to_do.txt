@@ -1,1 +1,3 @@
-extend the network input with the 'topic' of a question. Would help classify open-end follow up questions
+- extend the network input with the 'topic' of a question. Would help classify open-end follow up questions
+- add a response after a question has been answered? (e.g. "ah, so you like football!")
+    - might require a method that can then deal with the user responding with something like "wait no, I dont like football. I enjoy Tennis".

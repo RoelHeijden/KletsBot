@@ -3,7 +3,7 @@ import random
 
 from nn_pipeline.algorithm import output
 from nn_pipeline.data_processing.importExport import File
-from messages import Types, Messages, Question
+from messages import Topics, Types, Messages, Question
 
 
 class KletsBot:
@@ -56,10 +56,9 @@ class KletsBot:
 
             # check if still no matching label exists
             if not label:
-
-                # follow_up_questions should get a different response here
+                # follow_up_questions should get a different "I don't know" response here
                 if is_follow_up:
-                    self.messages.send(self.messages.follow_up_unknown(question.topic))
+                    self.messages.send(self.messages.follow_up_unknown.replace(Topics.TOPIC, question.topic))
                 else:
                     self.messages.send(self.messages.main_unknown)
 
