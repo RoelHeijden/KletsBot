@@ -30,9 +30,9 @@ class KletsBot:
             self.ask_question(question)
 
         # show result
-        print("final answers:")
+        print("\n---- final answers ----")
         for item in self.answer_labels.items():
-            print(f'Q: {item[0]} - A: {item[1]}')
+            print(f'{item[0]} \033[34m{item[1]}\033[0m')
 
     def ask_question(self, question: Question, is_follow_up=False):
         # select the correct network based on question type
