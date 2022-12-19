@@ -2,7 +2,7 @@
 class Labels:
     YES = 'yes'
     NO = 'no'
-    # extend with more labels that would result in follow up questions if necessary
+    # extend with more labels that could result in follow up questions, if necessary
 
 
 class Types:
@@ -62,9 +62,18 @@ class Messages:
         ]
 
     def list_all_questions(self):
-        main_questions = [q.question for q in self.main_questions]
-        follow_ups = [f.question for q in self.main_questions for f in list(q.follow_ups.values())]
-        return main_questions + follow_ups
+        # main_questions = [q.question for q in self.main_questions]
+        # follow_ups = [f.question for q in self.main_questions for f in list(q.follow_ups.values())]
+        # return main_questions + follow_ups
+
+        all_questions = []
+        for main_q in self.main_questions:
+            all_questions.append(main_q.question)
+
+            for follow_up_q in list(main_q.follow_ups.values()):
+                all_questions.append(follow_up_q.question)
+
+        return all_questions
 
     def show_questions(self):
         for question in self.main_questions:

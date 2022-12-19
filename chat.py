@@ -20,8 +20,8 @@ class KletsBot:
         model_file2 = "nn_pipeline\\data\\nn_open_end.pth"
         self.nn_open_end = output.Output(File(model_file2))
 
-        # the final answers, formatted as {question: label} -- note: each label is initialized as None
-        self.answer_labels = {question: None for question in self.messages.list_all_questions()}
+        # the final answers, formatted as {question: label} -- note: each label is initialized as '-'
+        self.answer_labels = {question: '-' for question in self.messages.list_all_questions()}
 
     def chat(self):
         # chat loop
