@@ -17,11 +17,19 @@ class Topics:
     # extend
 
 
+class Expressions:
+    NO_EXPRESSION = 'no expression'
+    HAPPY = 'happy'
+    SAD = 'sad'
+    # extend
+
+
 class Question:
-    def __init__(self, question, type, topic, follow_ups=None):
+    def __init__(self, question, type, topic, expressions=None, follow_ups=None):
         self.question = question
         self.type = type
         self.topic = topic
+        self.expressions = expressions
         self.follow_ups = follow_ups
 
     def show(self):
@@ -45,6 +53,10 @@ class Messages:
                 question="Do you like sports?",
                 type=Types.YES_NO,
                 topic=Topics.SPORTS,
+                expressions={
+                    Labels.YES: Expressions.HAPPY,
+                    Labels.NO: Expressions.SAD
+                },
                 follow_ups={
                     Labels.YES: Question("Which sport do you like most?", Types.OPEN_END, Topics.SPORTS)
                 }
@@ -53,9 +65,14 @@ class Messages:
                 question="Do you like listening to music?",
                 type=Types.YES_NO,
                 topic=Topics.MUSIC,
+                expressions={
+                    Labels.YES: Expressions.HAPPY,
+                    Labels.NO: Expressions.SAD
+                },
                 follow_ups={
                     Labels.YES: Question("What type of music do you like most?", Types.OPEN_END, Topics.MUSIC),
-                    Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO, Topics.MUSIC)
+                    Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO, Topics.MUSIC,
+                                        expressions={Labels.YES: Expressions.SAD, Labels.NO: Expressions.HAPPY},)
                 }
             ),
             # extend
