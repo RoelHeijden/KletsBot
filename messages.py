@@ -81,6 +81,3 @@ class Messages:
             question.show()
             print()
 
-    def send(self, message):
-        print("Henk:", '\033[34m' + message + '\033[0m')
-
