@@ -44,14 +44,14 @@ class KletsBot:
 
         # ask question, get answer and find the label
         self.messages.send(question.question)
-        answer = input("You: ")
+        answer = self.messages.receive()
         label = network.predicted_tags(answer)[0]
 
         # check if no matching label exists
         if not label:
             # ask question, get answer and find the label, again
             self.messages.send(self.messages.please_reformulate)
-            answer = input("You: ")
+            answer = self.messages.receive()
             label = network.predicted_tags(answer)[0]
 
             # check if still no matching label exists

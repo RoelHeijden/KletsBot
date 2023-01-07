@@ -62,11 +62,8 @@ class Messages:
         ]
 
     def list_all_questions(self):
-        # main_questions = [q.question for q in self.main_questions]
-        # follow_ups = [f.question for q in self.main_questions for f in list(q.follow_ups.values())]
-        # return main_questions + follow_ups
-
         all_questions = []
+
         for main_q in self.main_questions:
             all_questions.append(main_q.question)
 
@@ -83,4 +80,8 @@ class Messages:
 
     def send(self, message):
         print("Henk:", '\033[34m' + message + '\033[0m')
+
+    def receive(self):
+        message = input("You: ")
+        return message
 

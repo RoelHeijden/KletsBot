@@ -57,14 +57,14 @@ class Main:
         max_guesses:              max amount of guesses grouped together
         """
 
-        self.train_data_file = "data\\trainingdata_yes_no.csv"
-        self.save_file = "data\\nn_yes_no.pth"
-        self.respond_threshold = 0.70
-        self.n_epochs = 10
-        # self.train_data_file = "data\\trainingdata_open_end.csv"
-        # self.save_file = "data\\nn_open_end.pth"
-        # self.respond_threshold = 0.55
-        # self.n_epochs = 20
+        # self.train_data_file = "data\\trainingdata_yes_no.csv"
+        # self.save_file = "data\\nn_yes_no.pth"
+        # self.respond_threshold = 0.70
+        # self.n_epochs = 10
+        self.train_data_file = "data\\trainingdata_open_end.csv"
+        self.save_file = "data\\nn_open_end.pth"
+        self.respond_threshold = 0.55
+        self.n_epochs = 20
 
         ################################################################################
 
