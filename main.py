@@ -65,25 +65,16 @@ class KletsBot:
             network = self.nn_open_end
 
         # ask question, get answer and find the label
-<<<<<<< HEAD:main.py
         self.zenbo.speak(question.question)
         answer = self.zenbo.listen()
-=======
-        self.messages.send(question.question)
-        answer = self.messages.receive()
->>>>>>> 19b5515ec0567d876decf37ee65ca838759f83ae:chat.py
         label = network.predicted_tags(answer)[0]
 
         # check if no matching label exists
         if not label:
             # ask question, get answer and find the label, again
-<<<<<<< HEAD:main.py
             self.zenbo.speak(self.messages.please_reformulate)
             answer = self.zenbo.listen()
-=======
-            self.messages.send(self.messages.please_reformulate)
-            answer = self.messages.receive()
->>>>>>> 19b5515ec0567d876decf37ee65ca838759f83ae:chat.py
+
             label = network.predicted_tags(answer)[0]
 
             # check if still no matching label exists
