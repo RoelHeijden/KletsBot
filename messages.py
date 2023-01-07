@@ -94,3 +94,14 @@ class Messages:
             print(''.join([char*40 for char in '-']))
             question.show()
             print()
+<<<<<<< HEAD
+=======
+
+    def send(self, message):
+        print("Henk:", '\033[34m' + message + '\033[0m')
+
+    def receive(self):
+        message = input("You: ")
+        return message
+
+>>>>>>> 19b5515ec0567d876decf37ee65ca838759f83ae
