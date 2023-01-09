@@ -5,6 +5,7 @@ import pyzenbo
 import pyzenbo.modules.zenbo_command as commands
 import time
 from pyzenbo.modules.dialog_system import RobotFace
+from messages import Expressions
 
 
 class Zenbo:
@@ -48,9 +49,19 @@ class Zenbo:
             emotion = RobotFace.PREVIOUS
         self.zenbo.robot.set_expression(emotion, message, {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
 
-    def listen(self):
+    def listen(self, emotion = RobotFace.DEFAULT):
         self.zenbo.robot.speak_and_listen('',{'listenLanguageId': self.zenbo_listenLanguageId})
-        time.sleep(int(1))
         self.zenbo.robot.stop_speak_and_listen()
+
         print(self.myUtterance)
         return self.myUtterance
+    
+    def set_expression(self, expression):
+        self.zenbo.robot.set_expression(self.get_robot_expression(expression), '', {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
+
+    def get_robot_expression(expression):
+        switch = {
+            Expressions.SAD: RobotFace.INNOCENT,
+            Expressions.HAPPY: RobotFace.HAPPY
+        }
+        return switch.get(expression)

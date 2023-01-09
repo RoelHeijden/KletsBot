@@ -3,7 +3,7 @@ import random
 
 from nn_pipeline.algorithm import output
 from nn_pipeline.data_processing.importExport import File
-from messages import Topics, Types, Messages, Question
+from messages import Topics, Types, Messages, Question, Expressions
 from zenbo import Zenbo
 
 class KletsBot:
@@ -27,13 +27,14 @@ class KletsBot:
 
     def startConversation(self):
         #starts the conversation with the user by asking for their name
-        answer = self.zenbo.speak_and_listen('Hey, nice to meet you. My name is Zenbo. What is your name?')
+        self.zenbo.speak('Hey, nice to meet you. My name is Zenbo. What is your name?')
+        answer = self.zenbo.listen()
         self.zenbo.speak('Nice to meet you ' + answer)
-        
+        self.zenbo.speak('Is it okay if I ask you some questions, to get to know each other?')
         
         #classify answer of the user (yes/no)
         network = self.nn_yes_no
-        answer = self.zenbo.speak_and_listen('Is it okay if I ask you some questions, to get to know each other?')
+        answer = self.zenbo.listen()
 
         label = network.predicted_tags(answer)[0]
 
@@ -65,13 +66,15 @@ class KletsBot:
             network = self.nn_open_end
 
         # ask question, get answer and find the label
-        answer = self.zenbo.speak_and_listen(question.question)
+        self.zenbo.speak(question.question)
+        answer = self.zenbo.listen()
         label = network.predicted_tags(answer)[0]
-
+        self.zenbo.set_expression(self.get_expression(question, label))
         # check if no matching label exists
         if not label:
             # ask question, get answer and find the label, again
-            answer = self.zenbo.speak_and_listen(self.messages.please_reformulate)
+            self.zenbo.speak(self.messages.please_reformulate)
+            answer = self.zenbo.listen()
 
             label = network.predicted_tags(answer)[0]
 
@@ -109,8 +112,14 @@ class KletsBot:
             else:
                 self.ask_question(follow_up_question, is_follow_up=True)
 
+    def get_expression(question, label):
+        if question.expressions:
+            expression = question.expressions.get(label)
+        else:
+            expression = Expressions.NO_EXPRESSION
+        return expression
 
 if __name__ == "__main__":
-    show_emotion = True
+    show_emotion = False
     chatbot = KletsBot(show_emotion)
     chatbot.startConversation()
