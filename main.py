@@ -3,7 +3,7 @@ import random
 
 from nn_pipeline.algorithm import output
 from nn_pipeline.data_processing.importExport import File
-from messages import Labels, Topics, Types, Messages, Question
+from messages import Topics, Types, Messages, Question
 from zenbo import Zenbo
 
 class KletsBot:
@@ -27,18 +27,18 @@ class KletsBot:
 
     def startConversation(self):
         #starts the conversation with the user by asking for their name
-        self.zenbo.speak('Hey, nice to meet you. My name is Zenbo. What is your name?')
-        answer = self.zenbo.listen()
+        answer = self.zenbo.speak_and_listen('Hey, nice to meet you. My name is Zenbo. What is your name?')
         self.zenbo.speak('Nice to meet you ' + answer)
-        self.zenbo.speak('Is it okay if I ask you some questions, to get to know each other?')
+        
         
         #classify answer of the user (yes/no)
         network = self.nn_yes_no
-        answer = self.zenbo.listen()
+        answer = self.zenbo.speak_and_listen('Is it okay if I ask you some questions, to get to know each other?')
 
         label = network.predicted_tags(answer)[0]
+
         #if label = Labels.YES:
-        if 'yes' in answer:
+        if label == 'yes':
             self.zenbo.speak('Perfect!')
             self.chat()
         else:
@@ -65,15 +65,13 @@ class KletsBot:
             network = self.nn_open_end
 
         # ask question, get answer and find the label
-        self.zenbo.speak(question.question)
-        answer = self.zenbo.listen()
+        answer = self.zenbo.speak_and_listen(question.question)
         label = network.predicted_tags(answer)[0]
 
         # check if no matching label exists
         if not label:
             # ask question, get answer and find the label, again
-            self.zenbo.speak(self.messages.please_reformulate)
-            answer = self.zenbo.listen()
+            answer = self.zenbo.speak_and_listen(self.messages.please_reformulate)
 
             label = network.predicted_tags(answer)[0]
 

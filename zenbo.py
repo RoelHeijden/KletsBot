@@ -14,10 +14,11 @@ class Zenbo:
         self.zenbo_speakSpeed = 100
         self.zenbo_speakPitch = 100
         self.zenbo_speakLanguage = 2
-        self.zenbo_listenLanguageId = 1
+        self.zenbo_listenLanguageId = 2
         
         #connect to Zenbo
-        self.zenbo = pyzenbo.connect('')
+        host = '192.168.178.43'
+        self.zenbo = pyzenbo.connect(host)
         
         
         self.show_emotion = show_emotion
@@ -26,6 +27,7 @@ class Zenbo:
         time.sleep(int(0.5))
         self.zenbo.robot.register_listen_callback(1207, self.listen_callback)
         time.sleep(int(1))
+        self.zenbo.utility.track_face(True, True)
 
     def stop(self):
         self.zenbo.robot.unregister_listen_callback()
@@ -43,11 +45,12 @@ class Zenbo:
             
     def speak(self, message, emotion = RobotFace.PREVIOUS):
         if not self.show_emotion:
-            emotion = RobotFace.DEFAULT
-        self.robot.set_expression(emotion, message, {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
+            emotion = RobotFace.PREVIOUS
+        self.zenbo.robot.set_expression(emotion, message, {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
 
     def listen(self):
-        self.robot.speak_and_listen('',{'listenLanguageId': self.zenbo_listenLanguageId})
-        self.time.sleep(int(1))
-        self.robot.stop_speak_and_listen()
+        self.zenbo.robot.speak_and_listen('',{'listenLanguageId': self.zenbo_listenLanguageId})
+        time.sleep(int(1))
+        self.zenbo.robot.stop_speak_and_listen()
+        print(self.myUtterance)
         return self.myUtterance
