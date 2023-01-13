@@ -1,11 +1,6 @@
-
 class Labels:
     YES = 'yes'
     NO = 'no'
-    PLAY = 'play'
-    WATCH = 'watch'
-    PLAY_AND_WATCH = 'play_and_watch'
-
     # extend with more labels that could result in follow up questions, if necessary
 
 
@@ -18,6 +13,8 @@ class Topics:
     TOPIC = 'TOPIC'
     SPORTS = 'sport'
     MUSIC = 'music'
+    FOOD = 'food'
+    TRAVEL = 'travel'
     # extend
 
 
@@ -53,7 +50,7 @@ class Messages:
         # responses
         self.please_reformulate = "I'm not sure what you mean. Could you reformulate your answer?"
         self.main_unknown = "Sorry I still don't understand. We'll skip this question."
-        self.follow_up_unknown = "Sorry I'm not familiar with that " + Topics.TOPIC + ". Let's move on!"
+        self.follow_up_unknown = "Sorry I'm not familiar with that. Let's move on!"
 
         # main questions
         self.main_questions = [
@@ -66,15 +63,15 @@ class Messages:
                     Labels.NO: Expressions.SAD
                 },
                 follow_ups={
-                    Labels.YES: Question("Which sport do you like most?", Types.OPEN_END, Topics.SPORTS)
+                    Labels.YES: Question("Do you like to play sports or do you prefer to watch?", Types.OPEN_END, Topics.SPORTS)
                 },
                 reaction={
                     Labels.YES: 'Nice! I Like sports too, although I can not play them myself.',
-                    Labels.NO: 'I agree, I do not like sports either, altough big reason is that I can not play any sport.'
+                    Labels.NO: 'I agree, I do not like sports either, although a big reason is that I can not play any sport.'
                 }
             ),
             Question(
-                question="Do you like listening to music?",
+                question="Do you like music?",
                 type=Types.YES_NO,
                 topic=Topics.MUSIC,
                 expressions={
@@ -83,11 +80,38 @@ class Messages:
                 },
                 follow_ups={
                     Labels.YES: Question("What type of music do you like most?", Types.OPEN_END, Topics.MUSIC),
-                    Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO, Topics.MUSIC,
-                                        expressions={Labels.YES: Expressions.PLEASED, Labels.NO: Expressions.WORRIED},)
+                    Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO,
+                                        Topics.MUSIC, expressions={Labels.YES: Expressions.PLEASED, Labels.NO: Expressions.WORRIED}, )
                 }
             ),
-            # extend
+            Question(
+                question="Do you like to cook?",
+                type=Types.YES_NO,
+                topic=Topics.FOOD,
+                expressions={
+                    Labels.YES: Expressions.HAPPY,
+                    Labels.NO: Expressions.SAD
+                },
+                follow_ups={
+                    Labels.YES: Question("Which type of cuisine would you most enjoy making if you had to choose "
+                                         "between: Dutch, French, African or Italian?", Types.OPEN_END, Topics.FOOD),
+                    Labels.NO: Question("If you had to choose, which type of cuisine would you prefer to eat,"
+                                        "Dutch, French, African or Italian?", Types.OPEN_END, Topics.FOOD)
+                }
+            ),
+            Question(
+                question="Do you like traveling or going on holiday?",
+                type=Types.YES_NO,
+                topic=Topics.TRAVEL,
+                expressions={
+                    Labels.YES: Expressions.HAPPY,
+                    Labels.NO: Expressions.SAD
+                },
+                follow_ups={
+                    Labels.YES: Question("Would you prefer an active or relaxing vacation?", Types.OPEN_END,
+                                         Topics.SPORTS)
+                }
+            )
         ]
 
     def list_all_questions(self):
@@ -106,4 +130,3 @@ class Messages:
             print(''.join([char*40 for char in '-']))
             question.show()
             print()
-
