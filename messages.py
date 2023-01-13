@@ -2,7 +2,10 @@
 class Labels:
     YES = 'yes'
     NO = 'no'
-    
+    PLAY = 'play'
+    WATCH = 'watch'
+    PLAY_AND_WATCH = 'play_and_watch'
+
     # extend with more labels that could result in follow up questions, if necessary
 
 

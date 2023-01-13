@@ -31,9 +31,12 @@ class KletsBot:
     def startConversation(self):
         #starts the conversation with the user by asking for their name
         self.zenbo.speak('Hey, nice to meet you. My name is Zenbo. What is your name?')
-        answer = self.zenbo.listen()
-        self.zenbo.speak('Nice to meet you ' + answer)
+        name = self.zenbo.listen()
+        self.zenbo.speak('Nice to meet you ' + name)
         self.zenbo.speak('Is it okay if I ask you some questions, to get to know each other?')
+        
+        name_answer = {'Name': name}
+        self.answer_labels = name_answer | self.answer_labels
         
         #classify answer of the user (yes/no)
         network = self.nn_yes_no
@@ -52,12 +55,24 @@ class KletsBot:
         
     def chat(self):
         # chat loop
-        while self.messages.main_questions:
+        if self.messages.main_questions:
             question = self.messages.main_questions.pop()
             self.ask_question(question)
 
-        print(self.answer_labels.items())
+        # Open CSV file in append mode
+        # Create a file object for this file
+        with open('results.csv', 'a') as f_object:
         
+            # Pass the file object and a list
+            # of column names to DictWriter()
+            # You will get a object of DictWriter
+            dictwriter_object = DictWriter(f_object, fieldnames=list(self.answer_labels.keys()))
+        
+            # Pass the dictionary as an argument to the Writerow()
+            dictwriter_object.writerow(self.answer_labels)
+        
+            # Close the file object
+            f_object.close()
 
         # show result
         print("\n---- final answers ----")
