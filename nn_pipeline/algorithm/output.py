@@ -173,7 +173,7 @@ class Output:
             responses.append(self.tags[idx])
         return responses
 
-    def get_prob(self, sentence, tag):
+    def get_prob(self, sentence, tag, topic):
         """
         Gets the probability predicted by the model that the tag corresponds to the sentence.
 
@@ -186,7 +186,7 @@ class Output:
             The corresponding tag
         """
 
-        x = self.to_input_array(sentence)
+        x = self.to_input_array(sentence, topic)
         nn_output = self.model(x)
         probs = torch.softmax(nn_output, dim=1)[0]
         _, pred = torch.max(nn_output, dim=1)

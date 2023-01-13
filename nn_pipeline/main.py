@@ -57,21 +57,26 @@ class Main:
         max_guesses:              max amount of guesses grouped together
         """
 
-        # self.train_data_file = "data\\trainingdata_yes_no.csv"
-        # self.test_file = "data\\yes_no_test_questions.csv"
-        # self.save_file = "data\\nn_yes_no.pth"
-        # self.respond_threshold = 0.80
-        # self.n_epochs = 8
-        # self.hidden_size = 30
-
-        self.train_data_file = "data\\trainingdata_open_end.csv"
-        self.test_file = "data/test_questions_open_end.csv"
-        self.save_file = "data\\nn_open_end.pth"
-        self.respond_threshold = 0.55
-        self.n_epochs = 12
-        self.hidden_size = 65
+        network = 'yes_no'
+        # network = 'open_end'
 
         ################################################################################
+
+        if network == 'yes_no':
+            self.train_data_file = "data\\trainingdata_yes_no.csv"
+            self.test_file = "data\\test_questions_yes_no.csv"
+            self.save_file = "data\\nn_yes_no.pth"
+            self.respond_threshold = 0.80
+            self.n_epochs = 8
+            self.hidden_size = 25
+
+        elif network == 'open_end':
+            self.train_data_file = "data\\trainingdata_open_end.csv"
+            self.test_file = "data/test_questions_open_end.csv"
+            self.save_file = "data\\nn_open_end.pth"
+            self.respond_threshold = 0.55
+            self.n_epochs = 12
+            self.hidden_size = 65
 
         # trainingOptimizer parameters
         self.network_params = [5, 6, 7, 8, 9, 10, 11, 12]

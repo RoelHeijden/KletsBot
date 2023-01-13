@@ -56,7 +56,8 @@ class Testing:
         for i in range(len(questions)):
             tag = questions['tag'][i]
             sentence = questions['sentence'][i]
-            prob, pred = output.get_prob(sentence, tag)
+            topic = questions['topic'][i]
+            prob, pred = output.get_prob(sentence, tag, topic)
 
             probs.append(prob.detach().numpy())
             if prob > output.respond_threshold:

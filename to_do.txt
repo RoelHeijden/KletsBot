@@ -1,7 +1,8 @@
+
+
 - check all label (when the bot automatically detects the answer for the follow up question)
 
-- add a response after a question has been answered? (e.g. "ah, so you like football!")
-    - might require a method that can then deal with the user responding with something like "wait no, I dont like football. I enjoy Tennis".
+- fix automatic 'yes' when no input detected
 
 - list of all facial expressions
     - double check facial expressions for questions
