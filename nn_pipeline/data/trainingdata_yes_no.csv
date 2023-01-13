@@ -78,192 +78,218 @@ I just don't have the time or energy to keep up with music.,no,none
 "I'm going to have to say no.",no,none
 "I'm afraid I can't do that.",no,none
 "I'm sorry, but I'm going to have to decline.",no,none
-"I'm happy to help with that task.", yes, none
-"I prefer not to do it that way.", no, none
-"I think it's a good idea to move forward with the project.", yes, none
-"I'm not comfortable with that suggestion.", no, none
-"I'd be willing to give it a try.", yes, none
-"I'm not sure I understand what you mean.", none, none
-"I'm not opposed to the idea.", yes, none
-"I don't think that's a good idea.", no, none
-"I'm open to hearing more about the proposal.", yes, none
-"I'm not convinced that's the best approach.", no, none
-"I'm glad you asked for my input.", yes, none
-"I don't have any strong feelings about it.", none, none
-"I'm willing to consider other options.", yes, none
-"I'm not interested in pursuing that option.", no, none
-"I'm happy to collaborate on the project.", yes, none
-"I'm not able to commit to that at this time.", no, none
-"I think we should move forward with the plan.", yes, none
-"I'm not in favor of that plan.", no, none
-"I'm open to discussing the matter further.", yes, none
-"I don't think there's anything to discuss.", no, none
-"I'm happy to help in any way I can.", yes, none
-"I'm not able to offer any assistance at this time.", no, none
-"I'm in favor of the proposal.", yes, none
-"I'm not supportive of the proposal.", no, none
-"I'm happy to consider your suggestion.", yes, none
-"I don't think that suggestion is viable.", no, none
-"I'm happy to contribute to the project.", yes, none
-"I'm not able to contribute to the project at this time.", no, none
-"I'm happy to participate in the discussion.", yes, none
-"I'm not able to join the discussion at this time.", no, none
-"I'm happy to give it a try.", yes, none
-"I'm not interested in trying that.", no, none
-"I'm happy to offer my assistance.", yes, none
-"I'm not able to offer any assistance at this time.", no, none
-"I'm happy to help in any way I can.", yes, none
-"I'm not able to help with that at this time.", no, none
-"I'm happy to join the team.", yes, none
-"I'm not able to join the team at this time.", no, none
-"I'm happy to offer my support.", yes, none
-"I'm not able to offer any support at this time.", no, none
-"I'm happy to be a part of the project.", yes, none
-"I'm not able to be a part of the project at this time.", no, none
-"Yeah, I'm happy to do that.", yes, none
-"Nope, I don't want to do that.", no, none
-"Sure, I can help with that.", yes, none
-"I'm sorry, I can't help with that.", no, none
-"Yes, I'm interested in that opportunity.", yes, none
-"No, I'm not interested in that opportunity.", no, none
-"Yes, I'd like to join the team.", yes, none
-"No, I don't want to join the team.", no, none
-"Yeah, I'm willing to give it a try.", yes, none
-"I don't think I want to try that.", no, none
-"Sure, I'd be happy to participate.", yes, none
-"I don't think I want to participate.", no, none
-"Yes, I'm available for that meeting.", yes, none
-"No, I'm not available for that meeting.", no, none
-"Yes, I'm interested in learning more.", yes, none
-"No, I'm not interested in learning more.", no, none
-"Yeah, I'm open to hearing more about the proposal.", yes, none
-"I don't think I want to hear more about the proposal.", no, none
-"Sure, I'm happy to consider the suggestion.", yes, none
-"I don't think I want to consider the suggestion.", no, none
-"Yes, I'm willing to help with the project.", yes, none
-"No, I'm not able to help with the project.", no, none
-"Yeah, I'm open to discussing the matter further.", yes, none
-"I don't think there's anything left to discuss.", no, none
-"Sure, I'm happy to collaborate on the project.", yes, none
-"I'm sorry, I'm not able to collaborate on the project.", no, none
-"Yes, I'm open to other options.", yes, none
-"No, I'm not interested in considering other options.", no, none
-"Yeah, I think it's a good idea to move forward with the plan.", yes, none
-"I don't think we should move forward with the plan.", no, none
-"Sure, I'm willing to give it a try.", yes, none
-"I don't think I want to give it a try.", no, none
-"Yes, I'm happy to offer my assistance.", yes, none
-"No, I'm sorry, I can't offer any assistance.", no, none
-"Yeah, I'm happy to participate in the discussion.", yes, none
-"I don't think I want to participate in the discussion.", no, none
-"Sure, I'm open to hearing more about the proposal.", yes, none
-"I don't think I want to hear more about the proposal.", no, none
-"Yes, I'm interested in joining the team.", yes, none
-"No, I don't want to join the team.", no, none
-"Yeah, I love watching sports.", yes, none
-"Nope, I'm not really into sports.", no, none
-"Sure, I love playing sports.", yes, none
-"I'm sorry, I'm not interested in sports.", no, none
-"Yes, I enjoy watching live sports events.", yes, none
-"No, I don't really care for live sports events.", no, none
-"Yes, I'm a big fan of football.", yes, none
-"No, I'm not really into football.", no, none
-"Yeah, I love going to sports games.", yes, none
-"I don't think I want to go to a sports game.", no, none
-"Sure, I'm interested in playing sports.", yes, none
-"I'm not interested in playing sports.", no, none
-"Yes, I'm available to play sports on the weekends.", yes, none
-"No, I'm not available to play sports on the weekends.", no, none
-"Yes, I'm interested in joining a sports team.", yes, none
-"No, I'm not interested in joining a sports team.", no, none
-"Yeah, I'm open to trying new sports.", yes, none
-"I don't think I want to try any new sports.", no, none
-"Sure, I'm happy to watch sports with friends.", yes, none
-"I don't think I want to watch sports with friends.", no, none
-"Yes, I'm willing to help coach a sports team.", yes, none
-"No, I'm not able to coach a sports team.", no, none
-"Yeah, I'm open to discussing sports strategy.", yes, none
-"I don't think I want to discuss sports strategy.", no, none
-"Sure, I'm happy to collaborate on a sports project.", yes, none
-"I'm sorry, I'm not able to collaborate on a sports project.", no, none
-"Yes, I'm open to other sports options.", yes, none
-"No, I'm not interested in considering other sports options.", no, none
-"Yeah, I think it's a good idea to start a sports club.", yes, none
-"I don't think we should start a sports club.", no, none
-"Sure, I'm willing to try out for a sports team.", yes, none
-"I don't think I want to try out for a sports team.", no, none
-"Yes, I'm happy to offer my assistance with sports events.", yes, none
-"No, I'm sorry, I can't offer any assistance with sports events.", no, none
-"Yeah, I'm happy to participate in sports activities.", yes, none
-"I don't think I want to participate in sports activities.", no, none
-"Yeah, I love listening to music.", yes, none
-"Nope, I'm not really into music.", no, none
-"Sure, I love playing music.", yes, none
-"I'm sorry, I'm not interested in music.", no, none
-"Yes, I enjoy attending live music events.", yes, none
-"No, I don't really care for live music events.", no, none
-"Yes, I'm a big fan of rock music.", yes, none
-"No, I'm not really into rock music.", no, none
-"Yeah, I love going to music festivals.", yes, none
-"I don't think I want to go to a music festival.", no, none
-"Sure, I'm interested in learning to play an instrument.", yes, none
-"I'm not interested in learning to play an instrument.", no, none
-"Yes, I'm available to attend music concerts on the weekends.", yes, none
-"No, I'm not available to attend music concerts on the weekends.", no, none
-"Yes, I'm interested in joining a music group.", yes, none
-"No, I'm not interested in joining a music group.", no, none
-"Yeah, I'm open to listening to new types of music.", yes, none
-"I don't think I want to listen to any new types of music.", no, none
-"Sure, I'm happy to listen to music with friends.", yes, none
-"I don't think I want to listen to music with friends.", no, none
-"Yes, I'm willing to help manage a music event.", yes, none
-"No, I'm not able to help manage a music event.", no, none
-"Yeah, I'm open to discussing music theory.", yes, none
-"I don't think I want to discuss music theory.", no, none
-"Sure, I'm happy to collaborate on a music project.", yes, none
-"I'm sorry, I'm not able to collaborate on a music project.", no, none
-"Yes, I'm open to other music options.", yes, none
-"No, I'm not interested in considering other music options.", no, none
-"Yeah, I think it's a good idea to start a music club.", yes, none
-"I don't think we should start a music club.", no, none
-"Sure, I'm willing to audition for a music group.", yes, none
-"I don't think I want to audition for a music group.", no, none
-"Yes, I'm happy to offer my assistance with music events.", yes, none
-"No, I'm sorry, I can't offer any assistance with music events.", no, none
-"Yeah, I'm happy to participate in music activities.", yes, none
-"I don't think I want to participate in music activities.", no, none
-"Yeah, I love traveling.", yes, none
-"Nope, I'm not really into traveling.", no, none
-"Sure, I love planning trips.", yes, none
-"I'm sorry, I'm not interested in traveling.", no, none
-"Yes, I enjoy visiting new places.", yes, none
-"No, I don't really care for visiting new places.", no, none
-"Yes, I'm a big fan of beach vacations.", yes, none
-"No, I'm not really into beach vacations.", no, none
-"Yeah, I love going on adventure trips.", yes, none
-"I don't think I want to go on an adventure trip.", no, none
-"Sure, I'm interested in traveling to different countries.", yes, none
-"I'm not interested in traveling to different countries.", no, none
-"Yes, I'm available to travel on the weekends.", yes, none
-"No, I'm not available to travel on the weekends.", no, none
-"Yes, I'm interested in joining a travel group.", yes, none
-"No, I'm not interested in joining a travel group.", no, none
-"Yeah, I'm open to trying new types of travel experiences.", yes, none
-"I don't think I want to try any new types of travel experiences.", no, none
-"Yeah, I love trying new foods.", yes, none
-"Nope, I'm not really into trying new foods.", no, none
-"Sure, I love cooking and trying new recipes.", yes, none
-"I'm sorry, I'm not interested in cooking or trying new recipes.", no, none
-"Yes, I enjoy eating at restaurants and trying new dishes.", yes, none
-"No, I don't really care for trying new dishes at restaurants.", no, none
-"Yes, I'm a big fan of Italian food.", yes, none
-"No, I'm not really into Italian food.", no, none
-"Yeah, I love trying new ethnic cuisines.", yes, none
-"I don't think I want to try any new ethnic cuisines.", no, none
-"Sure, I'm interested in learning to cook new types of dishes.", yes, none
-"I'm not interested in learning to cook new types of dishes.", no, none
-"Yes, I'm available to go out to eat on the weekends.", yes, none
-"No, I'm not available to go out to eat on the weekends.", no, none
-"Yes, I'm interested in trying new types of food.", yes, none
-"No, I'm not interested in trying new types of food.", no, none
-"Yeah, I'm open to trying new food combinations.", yes, none
+"I'm happy to help with that task.",yes,none
+"I prefer not to do it that way.",no,none
+"I think it's a good idea to move forward with the project.",yes,none
+"I'm not comfortable with that suggestion.",no,none
+"I'd be willing to give it a try.",yes,none
+"I'm not opposed to the idea.",yes,none
+"I don't think that's a good idea.",no,none
+"I'm open to hearing more about the proposal.",yes,none
+"I'm not convinced that's the best approach.",no,none
+"I'm glad you asked for my input.",yes,none
+"I'm willing to consider other options.",yes,none
+"I'm not interested in pursuing that option.",no,none
+"I'm happy to collaborate on the project.",yes,none
+"I'm not able to commit to that at this time.",no,none
+"I think we should move forward with the plan.",yes,none
+"I'm not in favor of that plan.",no,none
+"I'm open to discussing the matter further.",yes,none
+"I don't think there's anything to discuss.",no,none
+"I'm happy to help in any way I can.",yes,none
+"I'm not able to offer any assistance at this time.",no,none
+"I'm in favor of the proposal.",yes,none
+"I'm not supportive of the proposal.",no,none
+"I'm happy to consider your suggestion.",yes,none
+"I don't think that suggestion is viable.",no,none
+"I'm happy to contribute to the project.",yes,none
+"I'm not able to contribute to the project at this time.",no,none
+"I'm happy to participate in the discussion.",yes,none
+"I'm not able to join the discussion at this time.",no,none
+"I'm happy to give it a try.",yes,none
+"I'm not interested in trying that.",no,none
+"I'm happy to offer my assistance.",yes,none
+"I'm not able to offer any assistance at this time.",no,none
+"I'm happy to help in any way I can.",yes,none
+"I'm not able to help with that at this time.",no,none
+"I'm happy to join the team.",yes,none
+"I'm not able to join the team at this time.",no,none
+"I'm happy to offer my support.",yes,none
+"I'm not able to offer any support at this time.",no,none
+"I'm happy to be a part of the project.",yes,none
+"I'm not able to be a part of the project at this time.",no,none
+"Yeah, I'm happy to do that.",yes,none
+"Nope, I don't want to do that.",no,none
+"Sure, I can help with that.",yes,none
+"I'm sorry, I can't help with that.",no,none
+"Yes, I'm interested in that opportunity.",yes,none
+"No, I'm not interested in that opportunity.",no,none
+"Yes, I'd like to join the team.",yes,none
+"No, I don't want to join the team.",no,none
+"Yeah, I'm willing to give it a try.",yes,none
+"I don't think I want to try that.",no,none
+"Sure, I'd be happy to participate.",yes,none
+"I don't think I want to participate.",no,none
+"Yes, I'm available for that meeting.",yes,none
+"No, I'm not available for that meeting.",no,none
+"Yes, I'm interested in learning more.",yes,none
+"No, I'm not interested in learning more.",no,none
+"Yeah, I'm open to hearing more about the proposal.",yes,none
+"I don't think I want to hear more about the proposal.",no,none
+"Sure, I'm happy to consider the suggestion.",yes,none
+"I don't think I want to consider the suggestion.",no,none
+"Yes, I'm willing to help with the project.",yes,none
+"No, I'm not able to help with the project.",no,none
+"Yeah, I'm open to discussing the matter further.",yes,none
+"I don't think there's anything left to discuss.",no,none
+"Sure, I'm happy to collaborate on the project.",yes,none
+"I'm sorry, I'm not able to collaborate on the project.",no,none
+"Yes, I'm open to other options.",yes,none
+"No, I'm not interested in considering other options.",no,none
+"Yeah, I think it's a good idea to move forward with the plan.",yes,none
+"I don't think we should move forward with the plan.",no,none
+"Sure, I'm willing to give it a try.",yes,none
+"I don't think I want to give it a try.",no,none
+"Yes, I'm happy to offer my assistance.",yes,none
+"No, I'm sorry, I can't offer any assistance.",no,none
+"Yeah, I'm happy to participate in the discussion.",yes,none
+"I don't think I want to participate in the discussion.",no,none
+"Sure, I'm open to hearing more about the proposal.",yes,none
+"I don't think I want to hear more about the proposal.",no,none
+"Yes, I'm interested in joining the team.",yes,none
+"No, I don't want to join the team.",no,none
+"Yeah, I love watching sports.",yes,none
+"Nope, I'm not really into sports.",no,none
+"Sure, I love playing sports.",yes,none
+"I'm sorry, I'm not interested in sports.",no,none
+"Yes, I enjoy watching live sports events.",yes,none
+"No, I don't really care for live sports events.",no,none
+"Yes, I'm a big fan of football.",yes,none
+"No, I'm not really into football.",no,none
+"Yeah, I love going to sports games.",yes,none
+"I don't think I want to go to a sports game.",no,none
+"Sure, I'm interested in playing sports.",yes,none
+"I'm not interested in playing sports.",no,none
+"Yes, I'm available to play sports on the weekends.",yes,none
+"No, I'm not available to play sports on the weekends.",no,none
+"Yes, I'm interested in joining a sports team.",yes,none
+"No, I'm not interested in joining a sports team.",no,none
+"Yeah, I'm open to trying new sports.",yes,none
+"I don't think I want to try any new sports.",no,none
+"Sure, I'm happy to watch sports with friends.",yes,none
+"I don't think I want to watch sports with friends.",no,none
+"Yes, I'm willing to help coach a sports team.",yes,none
+"No, I'm not able to coach a sports team.",no,none
+"Yeah, I'm open to discussing sports strategy.",yes,none
+"I don't think I want to discuss sports strategy.",no,none
+"Sure, I'm happy to collaborate on a sports project.",yes,none
+"I'm sorry, I'm not able to collaborate on a sports project.",no,none
+"Yes, I'm open to other sports options.",yes,none
+"No, I'm not interested in considering other sports options.",no,none
+"Yeah, I think it's a good idea to start a sports club.",yes,none
+"I don't think we should start a sports club.",no,none
+"Sure, I'm willing to try out for a sports team.",yes,none
+"I don't think I want to try out for a sports team.",no,none
+"Yes, I'm happy to offer my assistance with sports events.",yes,none
+"No, I'm sorry, I can't offer any assistance with sports events.",no,none
+"Yeah, I'm happy to participate in sports activities.",yes,none
+"I don't think I want to participate in sports activities.",no,none
+"Yeah, I love listening to music.",yes,none
+"Nope, I'm not really into music.",no,none
+"Sure, I love playing music.",yes,none
+"I'm sorry, I'm not interested in music.",no,none
+"Yes, I enjoy attending live music events.",yes,none
+"No, I don't really care for live music events.",no,none
+"Yes, I'm a big fan of rock music.",yes,none
+"No, I'm not really into rock music.",no,none
+"Yeah, I love going to music festivals.",yes,none
+"I don't think I want to go to a music festival.",no,none
+"Sure, I'm interested in learning to play an instrument.",yes,none
+"I'm not interested in learning to play an instrument.",no,none
+"Yes, I'm available to attend music concerts on the weekends.",yes,none
+"No, I'm not available to attend music concerts on the weekends.",no,none
+"Yes, I'm interested in joining a music group.",yes,none
+"No, I'm not interested in joining a music group.",no,none
+"Yeah, I'm open to listening to new types of music.",yes,none
+"I don't think I want to listen to any new types of music.",no,none
+"Sure, I'm happy to listen to music with friends.",yes,none
+"I don't think I want to listen to music with friends.",no,none
+"Yes, I'm willing to help manage a music event.",yes,none
+"No, I'm not able to help manage a music event.",no,none
+"Yeah, I'm open to discussing music theory.",yes,none
+"I don't think I want to discuss music theory.",no,none
+"Sure, I'm happy to collaborate on a music project.",yes,none
+"I'm sorry, I'm not able to collaborate on a music project.",no,none
+"Yes, I'm open to other music options.",yes,none
+"No, I'm not interested in considering other music options.",no,none
+"Yeah, I think it's a good idea to start a music club.",yes,none
+"I don't think we should start a music club.",no,none
+"Sure, I'm willing to audition for a music group.",yes,none
+"I don't think I want to audition for a music group.",no,none
+"Yes, I'm happy to offer my assistance with music events.",yes,none
+"No, I'm sorry, I can't offer any assistance with music events.",no,none
+"Yeah, I'm happy to participate in music activities.",yes,none
+"I don't think I want to participate in music activities.",no,none
+"Yeah, I love traveling.",yes,none
+"Nope, I'm not really into traveling.",no,none
+"Sure, I love planning trips.",yes,none
+"I'm sorry, I'm not interested in traveling.",no,none
+"Yes, I enjoy visiting new places.",yes,none
+"No, I don't really care for visiting new places.",no,none
+"Yes, I'm a big fan of beach vacations.",yes,none
+"No, I'm not really into beach vacations.",no,none
+"Yeah, I love going on adventure trips.",yes,none
+"I don't think I want to go on an adventure trip.",no,none
+"Sure, I'm interested in traveling to different countries.",yes,none
+"I'm not interested in traveling to different countries.",no,none
+"Yes, I'm available to travel on the weekends.",yes,none
+"No, I'm not available to travel on the weekends.",no,none
+"Yes, I'm interested in joining a travel group.",yes,none
+"No, I'm not interested in joining a travel group.",no,none
+"Yeah, I'm open to trying new types of travel experiences.",yes,none
+"I don't think I want to try any new types of travel experiences.",no,none
+"Yeah, I love trying new foods.",yes,none
+"Nope, I'm not really into trying new foods.",no,none
+"Sure, I love cooking and trying new recipes.",yes,none
+"I'm sorry, I'm not interested in cooking or trying new recipes.",no,none
+"Yes, I enjoy eating at restaurants and trying new dishes.",yes,none
+"No, I don't really care for trying new dishes at restaurants.",no,none
+"Yes, I'm a big fan of Italian food.",yes,none
+"No, I'm not really into Italian food.",no,none
+"Yeah, I love trying new ethnic cuisines.",yes,none
+"I don't think I want to try any new ethnic cuisines.",no,none
+"Sure, I'm interested in learning to cook new types of dishes.",yes,none
+"I'm not interested in learning to cook new types of dishes.",no,none
+"Yes, I'm available to go out to eat on the weekends.",yes,none
+"No, I'm not available to go out to eat on the weekends.",no,none
+"Yes, I'm interested in trying new types of food.",yes,none
+"No, I'm not interested in trying new types of food.",no,none
+"Yeah, I'm open to trying new food combinations.",yes,none
+"I don't think so.",no,none
+"I'm not interested.",no,none
+"I'm not able.",no,none
+"I don't want to.",no,none
+"I don't think that's a good idea.",no,none
+"Not really.",no,none
+"I'm not a fan.",no,none
+"I'd rather do something else.",no,none
+"I don't think so.",no,none
+"It's not my cup of tea.",no,none
+"I'm not into it.",no,none
+"I don't think it's for me.",no,none
+"I'm not a big fan of it.",no,none
+"I prefer something else.",no,none
+"I'm just not interested.",no,none
+"It's not really my thing.",no,none
+"I don't think it's something I'd enjoy.",no,none
+"I'm not really into it.",no,none
+"It doesn't appeal to me.",no,none
+"I don't have the passion for it.",no,none
+"I don't see the point.",no,none
+"It doesn't hold my attention.",no,none
+"I don't get enjoyment out of it.",no,none
+"It's not my thing.",no,none
+"I don't see the appeal.",no,none
+"It's not for me.",no,none
+"I don't have the desire for it.",no,none
+"It's just not my cup of tea.",no,none

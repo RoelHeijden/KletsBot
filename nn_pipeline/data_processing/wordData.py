@@ -1,5 +1,6 @@
 
 import pandas as pd
+import json
 
 
 class WordData:
@@ -30,7 +31,7 @@ class WordData:
         self.nlp = nlp
         self.csv = pd.read_csv(filename)
         self.raw_data = self.convert(self.csv)
-        self.all_words, self.tags, self.xy = self.init_words()
+        self.all_words, self.tags, self.xy, self.topics = self.init_words()
 
     def details(self):
         """
@@ -42,6 +43,7 @@ class WordData:
         print(" unique words:", len(self.all_words))
         print(" samples:", len(self.xy))
         print(" tags:", len(self.tags))
+        print(" topics:", len(self.topics))
         print()
 
     def show(self):
@@ -69,13 +71,16 @@ class WordData:
 
         raw_data = []
         seen_tags = []
+
         for i in range(len(csv)):
             tag = csv['Tag'][i]
             pattern = csv['Input'][i]
+            topic = csv['Topic'][i]
 
             if tag not in seen_tags:
                 seen_tags.append(tag)
                 dic = {
+                    'topic': topic,
                     'tag': tag,
                     'patterns': [pattern],
                 }
@@ -98,15 +103,22 @@ class WordData:
             all_words: list of all unique pattern words
             tags:      list of all unique tags
             xy:        tuples containing ([words], tag) for each pattern
+            topics:    list of all unique topics
         """
 
         all_words = []
         tags = []
         xy = []
+        topics = []
+
+        # print(json.dumps(self.raw_data, indent=4))
 
         for i, chat in enumerate(self.raw_data):
             tag = chat['tag']
             tags.append(tag)
+
+            topic = chat['topic']
+            topics.append(topic)
 
             for pattern in chat['patterns']:
 
@@ -120,12 +132,13 @@ class WordData:
                 all_words.extend(tokens)
 
                 # save datapoint as tuple
-                xy.append((tokens, tag))
+                xy.append((tokens, tag, topic))
 
             print("Words from tag", i+1, "processed")
         print()
 
         all_words = sorted(set(all_words))
         tags = sorted(set(tags))
+        topics = sorted(set(topics))
 
-        return all_words, tags, xy
+        return all_words, tags, xy, topics

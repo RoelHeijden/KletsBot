@@ -1,0 +1,84 @@
+Input,Tag,Topic
+"I enjoy trying all different types of cuisine, from Italian to African to French. I love the variety and cultural diversity of different types of food",all_food,food
+"I'm a big fan of Dutch food, especially the variety of cheeses and the famous Dutch stroopwafels",Dutch,food
+"I love Italian cuisine, with its delicious pastas, pizzas, and meats",Italian,food
+"I'm a fan of French food, especially the variety of pastries and desserts",French,food
+"I enjoy trying different types of African cuisine, like Ethiopian and Moroccan dishes",African,food
+"Italian cuisine is my favorite, with its variety of pasta dishes, pizzas, and meats",Italian,food
+"I'm a fan of all different types of cuisine, I love the variety and cultural diversity of different types of food",all_food,food
+"I enjoy trying different types of African cuisine, like Ethiopian and Moroccan dishes",African,food
+"I'm a big fan of Dutch food, especially the variety of cheeses and the famous Dutch stroopwafels",Dutch,food
+"I love Italian cuisine, with its delicious pastas, pizzas, and meats",Italian,food
+"I'm a fan of French food, especially the variety of pastries and desserts",French,food
+"I enjoy trying new types of cuisine from all around the world, so it's hard to choose just one favorite. However, if I had to pick, I think I would say that I prefer Italian cuisine the most. I love the variety of pasta dishes, pizzas, and meats that are typically served in Italian restaurants.",Italian,food
+"I'm a big fan of all different types of cuisine, I love trying new and exciting flavors",all_food,food
+"I enjoy trying different types of African cuisine, like Nigerian and Senegalese dishes",African,food
+"I'm a fan of Dutch food, especially the variety of delicious cheeses",Dutch,food
+"I love Italian cuisine, with its delicious pasta dishes and flavorful sauces",Italian,food
+"I'm a fan of French food, especially the variety of pastries and desserts",French,food
+"Dutch cuisine is one of my favorites, with its tasty cheeses and hearty stews",Dutch,food
+"Dutch food is my go-to when I'm looking for something hearty and filling",Dutch,food
+"I'm a fan of the variety of delicious cheeses and meats in Dutch cuisine",Dutch,food
+"Trying new Dutch recipes and experimenting with different flavors is something I really enjoy",Dutch,food
+"One of my absolute favorite cuisines is Dutch, with its tasty cheeses and savory meats",Dutch,food
+"I love the hearty and flavorful stews and soups in Dutch cuisine",Dutch,food
+"Dutch cheeses, especially Gouda and Edam, are some of my favorites",Dutch,food
+"Discovering new and delicious dishes at Dutch restaurants is something I really enjoy",Dutch,food
+"I'm a big fan of the tasty and savory dishes in Dutch cuisine",Dutch,food
+"I love trying out different types of Dutch food, like Gouda cheese and bitterballen",Dutch,food
+"French cuisine is one of my favorites, with its tasty pastries and hearty stews",French,food
+"When I'm looking for something elegant and refined, French cuisine is my go-to",French,food
+"I'm a fan of the variety of delicious pastries and meats in French cuisine",French,food
+"Trying new French recipes and experimenting with different flavors is something I really enjoy",French,food
+"One of my absolute favorite cuisines is French, with its tasty pastries and savory dishes",French,food
+"I love the elegant and sophisticated flavors in French cuisine",French,food
+"French pastries, especially croissants and éclairs, are some of my favorites",French,food
+"Discovering new and delicious dishes at French restaurants is something I really enjoy",French,food
+"The tasty and savory dishes in French cuisine are some of my favorites",French,food
+"I love trying out different types of French food, like croissants and escargot",French,food
+"Italian food is some of my favorite, with its delicious pastas and pizzas",Italian,food
+"Italian cuisine is one of my favorites, with its tasty pastas and flavorful sauces",Italian,food
+"I love trying different types of Italian food, like lasagna and tiramisu",Italian,food
+"Italian cuisine is my go-to when I'm in the mood for something hearty and filling",Italian,food
+"I'm a fan of the variety of delicious pastas and meats in Italian cuisine",Italian,food
+"Trying new Italian recipes and experimenting with different flavors is something I really enjoy",Italian,food
+"One of my absolute favorite cuisines is Italian, with its tasty pastas and savory sauces",Italian,food
+"I love the hearty and flavorful dishes in Italian cuisine",Italian,food
+"Italian pastas, especially spaghetti and fettuccine, are some of my favorites",Italian,food
+"I enjoy trying new Italian restaurants and discovering new and delicious dishes",Italian,food
+"African food is some of my favorite, with its flavorful stews and curries",African,food
+"African cuisine is one of my favorites, with its tasty and spicy dishes",African,food
+"I love trying different types of African food, like injera and jollof rice",African,food
+"African cuisine is my go-to when I'm in the mood for something hearty and flavorful",African,food
+"I'm a fan of the variety of delicious and aromatic dishes in African cuisine",African,food
+"Trying new African recipes and experimenting with different flavors is something I really enjoy",African,food
+"One of my absolute favorite cuisines is African, with its tasty and aromatic dishes",African,food
+"I love the spicy and flavorful stews and curries in African cuisine",African,food
+"African grains, like millet and sorghum, are some of my favorites",African,food
+"I enjoy trying new African restaurants and discovering new and delicious dishes",African,food
+"I'm a big fan of all different types of food, with its delicious and varied flavors",all_food,food
+"All cuisines are some of my favorites, with their tasty and unique dishes",all_food,food
+"I love trying different types of food from all around the world, like sushi and tacos",all_food,food
+"I enjoy trying new and exciting flavors from all different types of cuisine",all_food,food
+"I'm a fan of the variety of delicious and aromatic dishes from all cuisines",all_food,food
+"Experimenting with new recipes and flavors from all different types of cuisine is something I really enjoy",all_food,food
+"I have an absolute love for all types of food, with their tasty and unique flavors",all_food,food
+"I love the delicious and varied flavors of all different types of cuisine",all_food,food
+"I enjoy trying new and exciting dishes from all around the world",all_food,food
+"Discovering new and delicious dishes from all different types of cuisine is something I really enjoy",all_food,food
+"I'm not a fan of any type of food, with its flavors and textures",none_food,food
+"None of the cuisines appeal to me, with their various flavors and ingredients",none_food,food
+"I don't enjoy trying different types of food from around the world",none_food,food
+"I don't have a preference for any particular type of cuisine",none_food,food
+"I'm not interested in trying new and exciting flavors from different types of cuisine",none_food,food
+"I don't like the variety of flavors and textures in different types of cuisine",none_food,food
+"Experimenting with new recipes and flavors from different types of cuisine is not something I enjoy",none_food,food
+"I have no love for any type of food, with their various flavors and ingredients",none_food,food
+"I don't enjoy the flavors and textures of different types of cuisine",none_food,food
+"Discovering new and delicious dishes from different types of cuisine is not something I'm interested in",none_food,food
+"None of the cuisines appeal to my taste buds, with their various flavors and ingredients",none_food,food
+"I don't have a preference for any particular type of cuisine, as I don't enjoy trying new foods",none_food,food
+"I'm not interested in trying new flavors and textures from different types of cuisine",none_food,food
+"I don't like any type of food, as I'm a picky eater and don't enjoy trying new things",none_food,food
+"I don't enjoy the flavors and textures of different types of cuisine, as I'm a very simple eater and prefer familiar foods",none_food,food
+

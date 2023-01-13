@@ -58,22 +58,26 @@ class Main:
         """
 
         # self.train_data_file = "data\\trainingdata_yes_no.csv"
+        # self.test_file = "data\\yes_no_test_questions.csv"
         # self.save_file = "data\\nn_yes_no.pth"
-        # self.respond_threshold = 0.70
-        # self.n_epochs = 10
+        # self.respond_threshold = 0.80
+        # self.n_epochs = 8
+        # self.hidden_size = 30
+
         self.train_data_file = "data\\trainingdata_open_end.csv"
+        self.test_file = "data/test_questions_open_end.csv"
         self.save_file = "data\\nn_open_end.pth"
         self.respond_threshold = 0.55
-        self.n_epochs = 20
+        self.n_epochs = 12
+        self.hidden_size = 65
 
         ################################################################################
 
         # trainingOptimizer parameters
-        self.network_params = [10, 12, 14, 16]
+        self.network_params = [5, 6, 7, 8, 9, 10, 11, 12]
         self.independent_variable = "n_epochs"
 
         # training parameters
-        self.hidden_size = 65
         self.learning_rate = 0.01
         self.batch_size = 40
         self.criterion = nn.CrossEntropyLoss()
@@ -140,13 +144,13 @@ class Main:
 
             if n == "4":
                 t = Testing(self.model_file)
-                t.quick_test()
+                t.quick_test(self.test_file)
 
             if n == "5":
                 test_networks = ["data\\test_networks\\network" + str(i) + ".pth" for i in range(len(self.network_params))]
                 for model in test_networks:
                     t = Testing(model)
-                    t.quick_test()
+                    t.quick_test(self.test_file)
 
 
 if __name__ == '__main__':

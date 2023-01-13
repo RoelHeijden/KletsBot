@@ -41,7 +41,8 @@ class File:
             "all words": data.all_words,
             "tags": data.tags,
             "raw data": data.raw_data,
-            "output": output_settings
+            "output": output_settings,
+            "topics": data.topics
         }
 
         torch.save(save_data, self.file)
@@ -72,8 +73,9 @@ class File:
         tags = data["tags"]
         raw_data = data["raw data"]
         output_settings = data["output"]
+        topics = data['topics']
 
         model = NeuralNet(input_size, output_size, hidden_size)
         model.load_state_dict(model_state)
-        return model, raw_data, all_words, tags, output_settings
+        return model, raw_data, all_words, tags, topics, output_settings
 

@@ -1,0 +1,91 @@
+Input,Tag,Topic
+"I'm looking for a relaxing vacation.",relax,travel
+"I want to go on an active holiday.",active,travel
+"I prefer a quiet, restful vacation.",relax,travel
+"I'd like to go on a thrilling, adventure-filled holiday.",active,travel
+"I'm in the mood for a laid-back getaway.",relax,travel
+"I want to go on a vacation filled with exciting activities and adventures.",active,travel
+"I'm looking for a vacation where I can just relax and unwind.",relax,travel
+"I want to go on a vacation that's full of excitement and adventure.",active,travel
+"I'm thinking of taking a peaceful, restful vacation.",relax,travel
+"I want to go on a vacation where I can be active and try new things.",active,travel
+"I'm interested in a relaxing beach vacation.",relax,travel
+"I want to go on a hiking or biking holiday.",active,travel
+"I'm thinking of taking a spa vacation to relax and rejuvenate.",relax,travel
+"I want to go on a vacation where I can participate in water sports and other outdoor activities.",active,travel
+"I'm in the mood for a quiet, peaceful vacation.",relax,travel
+"I want to go on a vacation where I can be physically active and try new sports or activities.",active,travel
+"I want to relax.",relax,travel
+"I want to be active.",active,travel
+"I prefer a relaxing vacation.",relax,travel
+"I prefer an active holiday.",active,travel
+"I want a quiet vacation.",relax,travel
+"I want an exciting holiday.",active,travel
+"I want to relax and unwind.",relax,travel
+"I want an adventure-filled vacation.",active,travel
+"I want a peaceful getaway.",relax,travel
+"I want an active, thrilling holiday.",active,travel
+"I want a laid-back vacation.",relax,travel
+"I want a thrilling, active vacation.",active,travel
+"I want a restful vacation.",relax,travel
+"I want an adventure-filled holiday.",active,travel
+"I want a peaceful, quiet vacation.",relax,travel
+"I want an active, exciting vacation.",active,travel
+"I'm looking for a vacation where I can just kick back and relax.",relax,travel
+"I want to go on a vacation where I can be adventurous and try new things.",active,travel
+"I'm thinking of taking a solo trip to a quiet, peaceful location.",relax,travel
+"I want to go on a group trip filled with exciting activities and adventures.",active,travel
+"I'm interested in a beach vacation where I can soak up the sun and just relax.",relax,travel
+"I want to go on a mountain climbing or white water rafting holiday.",active,travel
+"I'm considering a spa vacation to pamper myself and relax.",relax,travel
+"I want to go on a vacation where I can participate in sports and other outdoor activities.",active,travel
+"I'm thinking of taking a slow-paced road trip to explore new places at my own leisure.",relax,travel
+"I want to go on a fast-paced, action-packed vacation.",active,travel
+"I'm in the mood for a peaceful, quiet vacation away from the city.",relax,travel
+"I want to go on a vacation where I can experience new cultures and try new things.",active,travel
+"I'm looking for a relaxing, low-key vacation where I can recharge my batteries.",relax,travel
+"I want to go on a vacation where I can push my limits and try new, exciting things.",active,travel
+"I'm open to either a relaxing or active vacation.",either,travel
+"I'd be happy with either a quiet getaway or an adventure-filled holiday.",either,travel
+"I'm flexible and willing to consider either a restful or exciting vacation.",either,travel
+"I'm open to either a peaceful vacation or an action-packed holiday.",either,travel
+"I'm happy to consider either a low-key or high-energy vacation.",either,travel
+"I'm open to either a relaxing or an active, thrilling vacation.",either,travel
+"I'm willing to consider either a quiet, peaceful getaway or a fast-paced, exciting holiday.",either,travel
+"I'm happy to consider either a laid-back vacation or an adventure-filled trip.",either,travel
+"I'm open to either a restful or an action-packed vacation.",either,travel
+"I'm flexible and willing to consider either a relaxing or an active holiday.",either,travel
+"I'm open to either a quiet, peaceful vacation or a thrilling, action-packed holiday.",either,travel
+"I'm happy to consider either a relaxing beach getaway or a group trip filled with exciting activities.",either,travel
+"I'm flexible and willing to consider either a solo trip to a peaceful location or an adventurous group trip.",either,travel
+"I'm open to either a slow-paced road trip or a fast-paced, action-packed vacation.",either,travel
+"I'm happy to consider either a spa vacation to relax and rejuvenate or a trip filled with outdoor sports and activities.",either,travel
+"I'm willing to consider either a peaceful, low-key vacation or a trip filled with cultural experiences and new adventures.",either,travel
+"I'm open to either a quiet, solo getaway or a group trip with exciting activities and adventures.",either,travel
+"I'm happy to consider either a restful beach vacation or a trip filled with outdoor sports and activities.",either,travel
+"I'm willing to consider either a peaceful, solo trip or an action-packed group vacation.",either,travel
+"I'm open to either a slow-paced, low-key vacation or a fast-paced, thrilling holiday.",either,travel
+"I'm open to either a relaxing or active vacation.",either,travel
+"I'm happy with either a quiet getaway or an exciting holiday.",either,travel
+"I'm willing to consider either a restful or exciting vacation.",either,travel
+"I'm open to either a peaceful vacation or an action-packed holiday.",either,travel
+"I'm happy to consider either a low-key or high-energy vacation.",either,travel
+"I'm open to either a relaxing or an active, thrilling vacation.",either,travel
+"I'm willing to consider either a quiet, peaceful getaway or a fast-paced, exciting holiday.",either,travel
+"I'm happy to consider either a laid-back vacation or an adventure-filled trip.",either,travel
+"I'm open to either a restful or an action-packed vacation.",either,travel
+"I'm flexible and willing to consider either a relaxing or an active holiday.",either,travel
+"A relaxing beach vacation sounds nice.",relax,travel
+"An active holiday filled with outdoor sports and activities sounds like fun.",active,travel
+"I'm open to either a peaceful getaway or an adventure-filled vacation.",either,travel
+"A solo trip to a quiet, peaceful location sounds appealing.",relax,travel
+"A group trip filled with exciting activities and adventures sounds thrilling.",active,travel
+"I'd be happy with either a low-key vacation or a high-energy holiday.",either,travel
+"A spa vacation to relax and rejuvenate sounds nice.",relax,travel
+"A trip filled with cultural experiences and new adventures sounds interesting.",active,travel
+"I'm willing to consider either a peaceful solo trip or an action-packed group vacation.",either,travel
+"A slow-paced, low-key vacation sounds appealing.",relax,travel
+"A fast-paced, thrilling holiday sounds exciting.",active,travel
+"I'm open to either a peaceful, solo getaway or a group trip with exciting activities and adventures.",either,travel
+"A restful beach vacation sounds nice.",relax,travel
+"A trip filled with outdoor sports and activities sounds like fun.",active,travel

@@ -34,7 +34,7 @@ class Output:
                     Output class settings matching the model
         """
 
-        self.model, self.raw_data, self.all_words, self.tags, output_settings = file.load()
+        self.model, self.raw_data, self.all_words, self.tags, self.topics, output_settings = file.load()
 
         self.respond_threshold = output_settings[0]
         self.guess_threshold = output_settings[1]
@@ -46,7 +46,7 @@ class Output:
         self.nlp = NLP()
         self.model.eval()
 
-    def to_input_array(self, sentence):
+    def to_input_array(self, sentence, topic):
         """
         Creates a binary word occurrence array.
 
@@ -61,10 +61,14 @@ class Output:
         tokens = self.nlp.tokenize(sentence)
         tokens = self.nlp.lemmatize(tokens)
 
-        x = np.zeros(len(self.all_words))
+        n_topics = len(self.topics)
+        x = np.zeros(len(self.all_words) + n_topics)
+
+        for i, t in enumerate(self.topics):
+            if t == topic:
+                x[i] = 1
 
         for input_word in tokens:
-
             # get synonyms?
 
             for i, word in enumerate(self.all_words):
@@ -72,14 +76,14 @@ class Output:
                 # check synonyms?
 
                 if input_word == word:
-                    x[i] = 1
+                    x[i + n_topics] = 1
 
         x = x.reshape(1, x.shape[0])
         x = torch.from_numpy(x)
         x = x.to(dtype=torch.float)
         return x
 
-    def respond(self, sentence):
+    def respond(self, sentence, topic):
         """
         Finds the correct response matching the tags.
 
@@ -95,7 +99,7 @@ class Output:
         """
 
         # Gets the predicted tags and probabilities
-        pred_tags, probs = self.predicted_tags(sentence)
+        pred_tags, probs = self.predicted_tags(sentence, topic)
 
         # None response
         if pred_tags is None:
@@ -121,7 +125,7 @@ class Output:
                 if section['tag'] == tag:
                     return ('insert answer for <' + tag + '>', tag), probs
 
-    def predicted_tags(self, sentence):
+    def predicted_tags(self, sentence, topic):
         """
         Uses the output of the model to get all possible tags.
 
@@ -132,7 +136,7 @@ class Output:
             probs_string: String
         """
 
-        x = self.to_input_array(sentence)
+        x = self.to_input_array(sentence, topic)
         nn_output = self.model(x)
         probs = torch.softmax(nn_output, dim=1)[0]
         _, pred = torch.max(nn_output, dim=1)

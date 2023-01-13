@@ -1,0 +1,108 @@
+Input,Tag,Topic
+"I love listening to jazz, it's my favorite genre.",listen,music
+"I prefer to make electronic music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express myself.",make_and_listen,music
+"I enjoy listening to classical music, it's very relaxing.",Listen,music
+"I like to make hip hop music, it's a lot of fun.",make,music
+"I do both listening and making music, I find it very therapeutic.",make_and_listen,music
+"I enjoy listening to rock, it's a great way to get energized.",Listen,music
+"I prefer to make country music, it's a passion of mine.",make,music
+"I like to both listen and make music, it's a great way to stay creative and engaged.",make_and_listen,music
+"I love listening to folk music, it's so rich and authentic.",Listen,music
+"I like to make pop music, it's a lot of fun.",make,music
+"I do both listening and making music, I find it very inspiring.",make_and_listen,music
+"I like to listen to metal music, it's a great way to get pumped up.",Listen,music
+"I enjoy making hip hop music, it's a lot of fun.",make,music
+"I like to do both listening and making music, it's a great way to stay connected and inspired.",make_and_listen,music
+"I love listening to R&B, it's my favorite genre.",listen,music
+"I prefer to make alternative music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express my emotions.",make_and_listen,music
+"I enjoy listening to country music, it's very relaxing.",Listen,music
+"I like to make electronic music, it's a lot of fun.",make,music
+"I do both listening and making music, it's a great way to stay creative.",make_and_listen,music
+"I enjoy listening to Indie music, it's a great way to discover new artists.",Listen,music
+"I prefer to make rock music, it's a passion of mine.",make,music
+"I like to both listen and make music, it's a great way to stay connected with my feelings.",make_and_listen,music
+"I love listening to blues music, it's so rich and authentic.",Listen,music
+"I like to make jazz music, it's a lot of fun.",make,music
+"I do both listening and making music, it's a great way to stay motivated and inspired.",make_and_listen,music
+"I like to listen to heavy metal music, it's a great way to get pumped up.",Listen,music
+"I enjoy making pop music, it's a lot of fun.",make,music
+"I like to do both listening and making music, it's a great way to stay connected and inspired.",make_and_listen,music
+"I love listening to hip hop music, it's my favorite genre.",Listen,music
+"I prefer to make electronic music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express my creativity.",make_and_listen,music
+"I enjoy listening to folk music, it's very relaxing.",Listen,music
+"I like to make hip hop music, it's a lot of fun.",make,music
+"I do both listening and making music, it's a great way to stay connected with my emotions.",make_and_listen,music
+"I enjoy listening to classical music, it's a great way to stay focused.",Listen,music
+"I prefer to make country music, it's a passion of mine.",make,music
+"I like to both listen and make music, it's a great way to stay connected with my feelings.",make_and_listen,music
+"I love listening to R&B music, it's so rich and authentic.",Listen,music
+"I like to make jazz music, it's a lot of fun.",make,music
+"I do both listening and making music, it's a great way to stay motivated and inspired.",make_and_listen,music
+"I like to listen to alternative music, it's a great way to discover new bands.",Listen,music
+"I enjoy making rock music, it's a lot of fun.",make,music
+"I like to do both listening and making music, it's a great way to stay connected and inspired.",make_and_listen,music
+"I love listening to hip hop music, it's my favorite genre.",listen,music
+"I prefer to make alternative music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express myself.",make_and_listen,music
+"I enjoy listening to country music, it's very relaxing.",Listen,music
+"I like to make electronic music, it's a lot of fun.",make,music
+"I do both listening and making music, I find it very therapeutic.",make_and_listen,music
+"I enjoy listening to rock, it's a great way to get energized.",Listen,music
+"I prefer to make country music, it's a passion of mine.",make,music
+"I like to both listen and make music, it's a great way to stay creative and engaged.",make_and_listen,music
+"I love listening to folk music, it's so rich and authentic.",Listen,music
+"I like to make pop music, it's a lot of fun.",make,music
+"I do both listening and making music, I find it very inspiring.",make_and_listen,music
+"I like to listen to metal music, it's a great way to get pumped up.",Listen,music
+"I enjoy making hip hop music, it's a lot of fun.",make,music
+"I like to do both listening and making music, it's a great way to stay connected and inspired.",make_and_listen,music
+"I love listening to R&B music, it's my favorite genre.",Listen,music
+"I prefer to make electronic music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express my creativity.",make_and_listen,music
+"I enjoy listening to classical music, it's very relaxing.",Listen,music
+"I like to make hip hop music, it's a lot of fun.",make,music
+"I do both listening and making music, I find it very therapeutic.",make_and_listen,music
+"I enjoy listening to Indie music, it's a great way to discover new artists.",Listen,music
+"I prefer to make rock music, it's a passion of mine.",make,music
+"I like to both listen and make music, it's a great way to stay connected with my feelings.",make_and_listen,music
+"I love listening to blues music, it's so rich and authentic.",Listen,music
+"I like to make jazz music, it's a lot of fun.",make,music
+"I do both listening and making music, it's a great way to stay motivated and inspired.",make_and_listen,music
+"I like to listen to heavy metal music, it's a great way to get pumped up.",Listen,music
+"I enjoy making pop music, it's a lot of fun.",make,music
+"I like to do both listening and making music, it's a great way to stay connected and inspired.",make_and_listen,music
+"I love listening to hip hop music, it's my favorite genre.",Listen,music
+"I prefer to make alternative music, it's a hobby of mine.",make,music
+"I enjoy both listening and making music, it's a great way to express my emotions.",make_and_listen,music
+"I enjoy listening to country music, it's very relaxing.",Listen,music
+"I like to make electronic music, it's a lot of fun.",make,music
+"Rock energizes me.",listen,music
+"Making beats excites me.",make,music
+"Both move me.",make_and_listen,music
+"Classical relaxes me.",listen,music
+"Making songs fun.",make,music
+"Both inspire me.",make_and_listen,music
+"Jazz speaks to me.",listen,music
+"Making music hobby.",make,music
+"Both express me.",make_and_listen,music
+"Blues authenticates me.",listen,music
+"Making beats hobby.",make,music
+"Both motivate me.",make_and_listen,music
+"Metal pumps me up.",listen,music
+"Making pop fun.",make,music
+"Both connect me.",make_and_listen,music
+"Listening to music relaxes me.",listen,music
+"Making music is a passion.",make,music
+"I enjoy both equally.",make_and_listen,music
+"I find solace in music.",listen,music
+"Music production is fun.",make,music
+"Music is my therapy.",make_and_listen,music
+"I live for music.",listen,music
+"Creating music is satisfying.",make,music
+"Music is my expression.",make_and_listen,music
+"Music is my sanctuary.",listen,music
+"Music production is my hobby.",make,music
+"Music is my motivation.",make_and_listen,music
