@@ -26,17 +26,20 @@ class Testing:
         output = Output(file)
         print("Starting chat - enter 'a' to quit")
         while True:
+
+            topic = input("Insert topic\n")
+
             sentence = input("You: ")
             if sentence == 'a':
                 print("aborted", end="\n\n")
                 break
 
             print("Henk:", end=" ")
-            answer, probs = output.respond(sentence)
+            answer, probs = output.respond(sentence, topic)
             print(answer[0])
             print('\033[34m' + probs + '\033[0m')
 
-    def quick_test(self):
+    def quick_test(self, test_file):
         """
         Runs the algorithm on multiple test questions contained in test_questions.csv and prints the accuracy.
 
@@ -44,7 +47,7 @@ class Testing:
         """
 
         print("Starting quick test")
-        questions = pd.read_csv("data\\test_questions.csv")
+        questions = pd.read_csv(test_file)
         file = File(self.path)
         output = Output(file)
 

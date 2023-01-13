@@ -114,7 +114,7 @@ class Training:
         training_data = TrainingData(word_data, nlp)
 
         # init neural network model
-        input_size = len(word_data.all_words)
+        input_size = len(word_data.all_words) + len(word_data.topics)
         output_size = training_data.n_tags
         model = NeuralNet(input_size, output_size, self.hidden_size)
 
@@ -155,7 +155,7 @@ class Training:
 
         train_loader = DataLoader(dataset=train_data, batch_size=self.batch_size, shuffle=True)
 
-        if val_data != None:
+        if val_data is not None:
             val_loader = DataLoader(dataset=val_data, batch_size=self.batch_size, shuffle=True)
         else:
             val_loader = train_loader

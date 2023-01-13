@@ -1,0 +1,76 @@
+Input,Tag,Topic
+"I love playing basketball and soccer on the weekends.",play,sports
+"I prefer to watch football games on TV.",watch,sports
+"I enjoy both playing and watching all kinds of sports.",play_and_watch,sports
+"I enjoy playing tennis and golf with friends.",play,sports
+"I like to watch ice hockey and baseball games on TV.",watch,sports
+"I do both playing and watching sports, it depends on my mood.",play_and_watch,sports
+"I enjoy playing volleyball and swimming.",play,sports
+"I prefer to watch gymnastics and figure skating.",watch,sports
+"I like to participate in all kinds of sports and watch them too.",play_and_watch,sports
+"I love to play badminton and table tennis.",play,sports
+"I like to watch martial arts and boxing matches.",watch,sports
+"I do both playing and watching sports, it depends on the season.",play_and_watch,sports
+"I like to play football and baseball with my friends.",play,sports
+"I enjoy watching basketball and soccer games on TV.",watch,sports
+"I like to do both playing and watching sports.",play_and_watch,sports
+"I love playing soccer, it's my favorite sport.",play,sports
+"I prefer to watch tennis on TV, I find it very exciting.",watch,sports
+"I enjoy both playing and watching football, it's a great way to stay active.",play_and_watch,sports
+"I enjoy playing volleyball, it's fun and challenging.",play,sports
+"I like to watch gymnastics, the athletes are so talented and graceful.",watch,sports
+"I do both playing and watching sports, I like to have a variety.",play_and_watch,sports
+"I enjoy playing baseball, it's a great way to spend a summer day.",play,sports
+"I prefer to watch ice hockey, it's fast-paced and action-packed.",watch,sports
+"I like to participate in all kinds of sports and watch them too, it keeps me active and interested.",play_and_watch,sports
+"I love to play basketball, it's a great way to stay in shape.",play,sports
+"I like to watch martial arts, it's very impressive and inspiring.",watch,sports
+"I do both playing and watching sports, I enjoy the competition and the camaraderie.",play_and_watch,sports
+"I like to play football, it's a great way to bond with friends.",play,sports
+"I enjoy watching soccer, it's a beautiful game.",watch,sports
+"I like to do both playing and watching sports, it's a great way to stay engaged and connected.",play_and_watch,sports
+"I love playing tennis, it's a great way to improve my focus and coordination.",play,sports
+"I prefer to watch gymnastics, the athletes are so talented and dedicated.",watch,sports
+"I enjoy both playing and watching football, it's a great way to stay involved and informed.",play_and_watch,sports
+"I enjoy playing volleyball, it's a great way to stay active and social.",play,sports
+"I like to watch baseball, it's a great way to relax and unwind.",watch,sports
+"I do both playing and watching sports, I like to have a balance.",play_and_watch,sports
+"I enjoy playing ice hockey, it's a great way to stay cool and active.",play,sports
+"I prefer to watch basketball, it's a great way to stay engaged and entertained.",watch,sports
+"I like to participate in all kinds of sports and watch them too, it keeps me motivated and inspired.",play_and_watch,sports
+"I love to play gymnastics, it's a great way to stay flexible and strong.",play,sports
+"I like to watch football, it's a great way to stay informed and interested.",watch,sports
+"I do both playing and watching sports, I like to have a sense of community.",play_and_watch,sports
+"I like to play baseball, it's a great way to stay connected and active.",play,sports
+"I enjoy watching tennis, it's a great way to stay focused and motivated.",watch,sports
+"I like to do both playing and watching sports, it's a great way to stay active and involved.",play_and_watch,sports
+"I love playing ice hockey, it's a great way to stay cool and active.",play,sports
+"I prefer to watch gymnastics, it's a great way to stay informed and inspired.",watch,sports
+"I enjoy both playing and watching basketball, it's a great way to stay connected and engaged.",play_and_watch,sports
+"Playing sports energizes me.",play,sports
+"Watching sports entertains me.",watch,sports
+"Both excite me.",play_and_watch,sports
+"Playing sports is fun.",play,sports
+"Watching sports is relaxing.",watch,sports
+"Both are enjoyable.",play_and_watch,sports
+"Playing sports is fulfilling.",play,sports
+"Watching sports is informative.",watch,sports
+"Both keep me active.",play_and_watch,sports
+"Playing sports is healthy.",play,sports
+"Watching sports is exciting.",watch,sports
+"Both are important.",play_and_watch, sport
+"I love the feeling of accomplishment after playing sports.",play,sports
+"Watching live sports is the best way to experience the game.",watch,sports
+"I enjoy both playing and watching sports because it brings people together.",play_and_watch,sports
+"Playing sports is a great way to stay in shape and healthy.",play,sports
+"Watching sports is a great way to learn about different strategies and techniques.",watch,sports
+"I find that doing both playing and watching sports is a great way to stay engaged and motivated.",play_and_watch,sports
+"Playing sports is a great way to relieve stress and have fun.",play,sports
+"Watching sports is a great way to learn about different cultures and traditions.",watch,sports
+"I think that both playing and watching sports is a great way to stay connected and informed.",play_and_watch,sports
+"Playing sports is a great way to improve my physical and mental health.",play,sports
+"Watching sports is a great way to enjoy the company of friends and family.",watch,sports
+"I find that both playing and watching sports is a great way to stay active and engaged.",play_and_watch,sports
+"Playing sports is a great way to challenge myself and improve.",play,sports
+"Watching sports is a great way to appreciate the skill and dedication of the athletes.",watch,sports
+"I believe that both playing and watching sports is a great way to stay connected and inspired.", Both, sport

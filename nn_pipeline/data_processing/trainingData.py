@@ -43,26 +43,29 @@ class TrainingData(Dataset):
         """
 
         x_dim = len(data.xy)
-        y_dim = len(data.all_words)
+        n_topics = len(data.topics)
+        y_dim = len(data.all_words) + n_topics
 
         X = np.zeros(shape=(x_dim, y_dim))
         y = np.zeros(x_dim)
 
         for i in range(x_dim):
-            words, tag = data.xy[i]
+            words, tag, topic = data.xy[i]
             y[i] = data.tags.index(tag)
 
-            for w in words:
+            for j, t in enumerate(data.topics):
+                if t == topic:
+                    X[i][j] = 1
 
+            for w in words:
                 # get synonyms?
 
                 # checks if input synonyms match any of the known ngrams
                 for j, word in enumerate(data.all_words):
-
                     # check synonyms?
 
                     if w == word:
-                        X[i][j] = 1
+                        X[i][j + n_topics] = 1
 
             if i % 20 == 0:
                 print(i+20, "patterns converted")

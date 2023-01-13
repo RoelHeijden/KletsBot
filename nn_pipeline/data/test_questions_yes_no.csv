@@ -1,0 +1,31 @@
+sentence,tag,none
+"I'm in agreement.",yes,none
+"I disagree.",no,none
+"Yes, I'm available at that time.",yes,none
+"Unfortunately, I won't be able to do that.",no,none
+"I have some experience with that.",yes,none
+"I don't have any familiarity with that.",no,none
+"Yes, I would like to participate.",yes,none
+"I'm not interested, but thank you for considering me.",no,none
+"I'd be happy to assist you with that.",yes,none
+"I'm sorry, but I won't be able to assist with that.",no,none
+"I'm open to hearing new ideas.",yes,none
+"I prefer to stick with what we know works for now.",no,none
+"I'm always open to trying something new.",yes,none
+"I prefer to stick with tried and true methods.",no,none
+"I'm up for the challenge.",yes,none
+"I don't think I'm the right fit for that.",no,none
+"I can make time for a meeting.",yes,none
+"I'm sorry, but I won't be able to attend a meeting.",no,none
+"I have the necessary skills for the job.",yes,none
+"I don't have the skills required for the position.",no,none
+"I'd be interested in exploring opportunities with your company.",yes,none
+"I appreciate the offer, but I'm not interested in working with your company.",no,none
+"I'm comfortable speaking in front of a group.",yes,none
+"I prefer not to speak in front of a large audience.",no,none
+"I'm happy to help out however I can.",yes,none
+"I'm sorry, but I won't be able to help out with that.",no,none
+"I'm ready to get started on the project.",yes,none
+"I need more time to prepare before starting the project.",no,none
+"I'm always open to new opportunities.",yes,none
+"I'm content with my current situation and not looking for new opportunities.",no,none
