@@ -1,18 +1,21 @@
 Input,Tag,Topic
 yes,yes,none
 I do,yes,none
-yea I love sports,yes,none
-I do like music,yes,none
 very much so,yes,none
-always!,yes,none
 that's right,yes,none
 well yes,yes,none
 it's my favourite thing,yes,none
-Absolutely.,yes,none
-Definitely.,yes,none
+"Absolutely, I would.",yes,none
+Definitely yes.,yes,none
 Of course.,yes,none
 Sure.,yes,none
 Naturally.,yes,none
+Absolutely not.,no,none
+Definitely not.,no,none
+no way.,no,none
+nah.,no,none
+never.,no,none
+nope.,no,none
 I love sports! I'm a big fan of basketball/baseball/football/etc.,yes,none
 "I like sports, but only as a way to stay active and healthy.",yes,none
 "I enjoy playing sports, but I'm not really a spectator.",yes,none

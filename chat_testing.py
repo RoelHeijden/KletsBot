@@ -1,15 +1,10 @@
 
-import random
-import datetime 
-
 from nn_pipeline.algorithm import output
 from nn_pipeline.data_processing.importExport import File
 from messages import Topics, Types, Messages, Question, Expressions
-from zenbo import Zenbo
 
+import random
 
-# Import DictWriter class from CSV module
-from csv import DictWriter
 
 class KletsBot:
     def __init__(self):
@@ -28,40 +23,11 @@ class KletsBot:
         # the final answers, formatted as {question: label} -- note: each label is initialized as '-'
         self.answer_labels = {str(question): '-' for question in self.messages.list_all_questions()}
 
-        self.zenbo = Zenbo()
-
-    def startConversation(self):
-        #starts the conversation with the user by asking for their name
-        self.zenbo.speak('Hey, nice to meet you. My name is Zenbo. What is your name?')
-        name = self.zenbo.listen()
-        self.zenbo.speak('Nice to meet you ' + name)
-        self.zenbo.speak('Is it okay if I ask you some questions, to get to know each other?')
-        
-        reference_info = {'Name': name, 'Date and Time': datetime.now()}
-        self.answer_labels = {**reference_info, **self.answer_labels}
-        
-        #classify answer of the user (yes/no)
-        network = self.nn_yes_no
-        answer = self.zenbo.listen()
-
-        label = network.predicted_tags(answer)[0]
-
-        #if label = Labels.YES:
-        if label == 'yes':
-            self.zenbo.speak('Perfect!')
-            self.chat()
-        else:
-            self.zenbo.set_expression(Expressions.SAD)
-            self.zenbo.speak('Okay, talk to you later then.')
-            self.zenbo.stop()
-        
     def chat(self):
         # chat loop
         if self.messages.main_questions:
             question = self.messages.main_questions.pop()
             self.ask_question(question)
-
-        self.store_answers('results.csv')
 
         # show result
         print("\n---- final answers ----")
@@ -81,7 +47,7 @@ class KletsBot:
         answer = self.zenbo.listen()
         label = network.predicted_tags(answer)[0]
         self.zenbo.set_expression(self.get_expression(question, label))
-        
+
         # check if no matching label exists
         if not label:
             # ask question, get answer and find the label, again
@@ -139,25 +105,8 @@ class KletsBot:
         else:
             expression = Expressions.NO_EXPRESSION
         return expression
-    
-    # store answers in a CSV file
-    def store_answers(self, filename):
-        # Open CSV file in append mode
-        # Create a file object for this file
-        with open(filename, 'a') as f_object:
-        
-            # Pass the file object and a list
-            # of column names to DictWriter()
-            # You will get a object of DictWriter
-            dictwriter_object = DictWriter(f_object, fieldnames=list(self.answer_labels.keys()))
-        
-            # Pass the dictionary as an argument to the Writerow()
-            dictwriter_object.writerow(self.answer_labels)
-        
-            # Close the file object
-            f_object.close()
 
 
 if __name__ == "__main__":
     chatbot = KletsBot()
-    chatbot.startConversation()
+    chatbot.chat()

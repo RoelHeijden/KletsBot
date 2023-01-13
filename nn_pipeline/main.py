@@ -66,7 +66,7 @@ class Main:
             self.train_data_file = "data\\trainingdata_yes_no.csv"
             self.test_file = "data\\test_questions_yes_no.csv"
             self.save_file = "data\\nn_yes_no.pth"
-            self.respond_threshold = 0.80
+            self.respond_threshold = 0.70
             self.n_epochs = 8
             self.hidden_size = 25
 
