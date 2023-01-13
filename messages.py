@@ -2,6 +2,7 @@
 class Labels:
     YES = 'yes'
     NO = 'no'
+    
     # extend with more labels that could result in follow up questions, if necessary
 
 
@@ -21,16 +22,20 @@ class Expressions:
     NO_EXPRESSION = 'no expression'
     HAPPY = 'happy'
     SAD = 'sad'
-    # extend
+    UNCERTAIN = 'uncertain'
+    PLEASED = 'pleased '
+    ACTIVE = 'active'
+    WORRIED = 'worried'
 
 
 class Question:
-    def __init__(self, question, type, topic, expressions=None, follow_ups=None):
+    def __init__(self, question, type, topic, expressions=None, follow_ups=None, reaction=None):
         self.question = question
         self.type = type
         self.topic = topic
         self.expressions = expressions
         self.follow_ups = follow_ups
+        self.reaction = reaction
 
     def show(self):
         print(self.question)
@@ -54,11 +59,15 @@ class Messages:
                 type=Types.YES_NO,
                 topic=Topics.SPORTS,
                 expressions={
-                    Labels.YES: Expressions.HAPPY,
+                    Labels.YES: Expressions.PLEASED,
                     Labels.NO: Expressions.SAD
                 },
                 follow_ups={
                     Labels.YES: Question("Which sport do you like most?", Types.OPEN_END, Topics.SPORTS)
+                },
+                reaction={
+                    Labels.YES: 'Nice! I Like sports too, although I can not play them myself.',
+                    Labels.NO: 'I agree, I do not like sports either, altough big reason is that I can not play any sport.'
                 }
             ),
             Question(
@@ -72,7 +81,7 @@ class Messages:
                 follow_ups={
                     Labels.YES: Question("What type of music do you like most?", Types.OPEN_END, Topics.MUSIC),
                     Labels.NO: Question("So you would also not enjoy live music, like a at concert?", Types.YES_NO, Topics.MUSIC,
-                                        expressions={Labels.YES: Expressions.SAD, Labels.NO: Expressions.HAPPY},)
+                                        expressions={Labels.YES: Expressions.PLEASED, Labels.NO: Expressions.WORRIED},)
                 }
             ),
             # extend
