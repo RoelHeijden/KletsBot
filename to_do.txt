@@ -1,4 +1,4 @@
-
+- test chat method
 
 - check all label (when the bot automatically detects the answer for the follow up question)
 
