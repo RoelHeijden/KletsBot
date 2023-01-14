@@ -138,7 +138,7 @@ class Messages:
                                         Labels.M_MAKEANDLISTEN : Expressions.INTERESTED
                                     },
                                     reactions={
-                                        Labels.M_Make : 'That is very cool! Maybe you can play me something someday.',
+                                        Labels.M_Make : 'That is very cool. Maybe you can play me something someday.',
                                         Labels.M_LISTEN : 'Great, I like to listen to music too.',
                                         Labels.M_MAKEANDLISTEN : 'Wow, it sounds like you are a real musical person.'
                                     }
@@ -165,8 +165,8 @@ class Messages:
                     Labels.NO: Expressions.UNCERTAIN
                 },
                 reactions = {
-                    Labels.YES: "I agree, I would definitely cook if I had arms",
-                    Labels.NO: "Really? I would try to cook if I had arms."
+                    Labels.YES: "I think I would too. Unfortunatly I do not have arms",
+                    Labels.NO: "Good to know. I would try to cook if I had arms."
                 },
                 follow_ups={
                     Labels.YES: Question(
@@ -178,11 +178,12 @@ class Messages:
                                         Labels.F_DUTCH : Expressions.EXPECTING,
                                         Labels.F_FRENCH: Expressions.HAPPY,
                                         Labels.F_AFRICAN: Expressions.HAPPY,
+                                        Labels.F_ITALIAN: Expressions.HAPPY,
                                         Labels.F_ALLFOOD: Expressions.NO_EXPRESSION
                                     },
                                     reactions={
-                                        Labels.F_DUTCH : "Wow my creators are Dutch too, that makes me proud!",
-                                        Labels.F_FRENCH: "Cool, I like the look of croissants,",
+                                        Labels.F_DUTCH : "Wow. My creators are Dutch too, that makes me proud!",
+                                        Labels.F_FRENCH: "Me too. I like the look of croissants,",
                                         Labels.F_AFRICAN: "Me too. the African cuisine looks so good.",
                                         Labels.F_ITALIAN: "Me too. That is why my eyes are in the shape of pizza.",
                                         Labels.F_ALLFOOD: "Me too. I do not have a preference either, Since I can not actually taste anything."
@@ -199,10 +200,10 @@ class Messages:
                                             Labels.F_ALLFOOD: Expressions.NO_EXPRESSION
                                         },
                                         reactions={
-                                            Labels.F_DUTCH : "Wow! my creators are Dutch too, that makes me proud!",
-                                            Labels.F_FRENCH: "Cool! I like the look of croissants,",
-                                            Labels.F_AFRICAN: "I agree! their cuisine looks so good.",
-                                            Labels.F_ALLFOOD: "I agree! I do not have a preference either, Since I can not actually taste anything."
+                                            Labels.F_DUTCH : "Wow. my creators are Dutch too, that makes me proud!",
+                                            Labels.F_FRENCH: "Cool. I like the look of croissants,",
+                                            Labels.F_AFRICAN: "I agree. their cuisine looks so good.",
+                                            Labels.F_ALLFOOD: "I agree. I do not have a preference either, Since I can not actually taste anything."
                                         }
                                 )
                 }
@@ -215,8 +216,8 @@ class Messages:
                     Labels.NO: Expressions.QUESTIONING
                 },
                 reactions = {
-                    Labels.YES: 'Me too! Today I travelled al the way to this table!',
-                    Labels.NO: 'Really? Your job must be nice then!'
+                    Labels.YES: 'Me too. Today I travelled al the way to this table!',
+                    Labels.NO: 'Really. Your job must be nice then!'
                 },
                 follow_ups={
                     Labels.YES: Question(question = "Would you prefer an active vacation, or would you prefer a relaxing vacation?", 

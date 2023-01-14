@@ -54,7 +54,7 @@ class KletsBot:
 
         #if label = Labels.YES:
         if label == 'yes':
-            self.zenbo.speak('Perfect!')
+            self.zenbo.speak('Nice!')
             self.chat()
         else:
             self.zenbo.set_expression(Expressions.SAD)
@@ -114,7 +114,8 @@ class KletsBot:
         expression = self.get_expression(question, label)
         if question.reactions is not None:
             # let Zenbo verbally react to the answer
-            self.zenbo.speak(question.reactions.get(label), expression)
+            for sentence in question.reactions.get(label).split('.'):
+                self.zenbo.speak(sentence, expression)
         else:
             self.zenbo.speak("That is good to know.", expression)
 
