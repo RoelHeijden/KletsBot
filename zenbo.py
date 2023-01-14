@@ -16,7 +16,7 @@ class Zenbo:
         self.zenbo_speakPitch = 100
         self.zenbo_speakLanguage = 2
         self.zenbo_listenLanguageId = 2
-        
+
         #connect to Zenbo
         host = '192.168.178.41'
         self.zenbo = pyzenbo.connect(host)
@@ -36,8 +36,6 @@ class Zenbo:
         self.zenbo.robot.unregister_listen_callback()
         self.zenbo.robot.set_expression(RobotFace.DEFAULT)
         self.zenbo.release()
-        time.sleep(1)
-        os._exit(0)
 
     def listen_callback(self, args):
         event_slu_query = args.get('event_slu_query', None)
@@ -46,25 +44,14 @@ class Zenbo:
         if event_slu_query and event_slu_query.get('error_code') == 'csr_failed':
             self.myUtterance = ''
             
-    def speak(self, message):
-        self.zenbo.robot.set_expression('HAPPY', message, {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
+    def speak(self, message, expression = Expressions.NO_EXPRESSION):
+        self.zenbo.robot.set_expression(expression, message, {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
 
     def listen(self):
         self.zenbo.robot.wait_for_listen('',{'listenLanguageId': self.zenbo_listenLanguageId})  
         print(self.myUtterance)
+        self.zenbo.robot.set_expression(Expressions.NO_EXPRESSION)
         return self.myUtterance
     
     def set_expression(self, expression):
-        self.zenbo.robot.set_expression(self.get_robot_expression(expression), '', {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)
-
-    def get_robot_expression(self, expression):
-        switch = {
-            Expressions.SAD: 'INNOCENT',
-            Expressions.HAPPY: 'HAPPY',
-            Expressions.UNCERTAIN: 'DOUBTING',
-            Expressions.PLEASED: 'PLEASED ',
-            Expressions.ACTIVE: 'ACTIVE',
-            Expressions.WORRIED: 'WORRIED'
-
-        }
-        return switch.get(expression)
+        self.zenbo.robot.set_expression(expression, '', {'speed':self.zenbo_speakSpeed, 'pitch':self.zenbo_speakPitch, 'languageId':self.zenbo_speakLanguage} , sync = True)

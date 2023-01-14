@@ -17,6 +17,7 @@ class NLP:
         self.nlp = spacy.load("en_core_web_md")
 
     def remove_punctuation(self, sentence):
+        sentence = sentence.lower()
         return re.sub(r'[^\w\s\'\?]', '', sentence)  # removes all but question marks and apostrophes
 
     def check_spelling(self, sentence):
